@@ -65,17 +65,21 @@ Berikut preview tampilan widget SVG nyata dari akun `2209106127`:
 
 ---
 
-## 📂 Daftar Tutorial & Contoh
+## 📂 Struktur Modul & Navigasi
 
-Tinggal pilih folder sesuai kebutuhan kamu:
+Repositori ini terbagi menjadi dua bagian utama:
 
-| Direktori | Penjelasan & Contoh Kasus |
-| :--- | :--- |
-| 📚 [**`tutor-bimbingan-project/`**](./tutor-bimbingan-project/README.md) | **Tutorial Bimbingan per Project**: Buat tracking progres bimbingan tugas besar / proyek praktikum (Pra-Konsul, Konsul 1, Konsul 2, ACC Final) pakai Group ID atau NIM. Ada template `README.md` tubes yang tinggal di-copy paste. |
-| 👤 [**`tutor-widget-profil/`**](./tutor-widget-profil/README.md) | **Widget Kartu Profil**: Kartu profil SVG dinamis buat nampilin info akun Informatika Unmul kamu (nama, NIM, kelas, role, jumlah showcase, dan progress bimbingan). |
-| 🎮 [**`tutor-widget-discord/`**](./tutor-widget-discord/README.md) | **Widget Discord Live Activity**: Nampilin status Discord live, lagu Spotify yang lagi diputar, aktivitas coding di VS Code / nge-game, role server, dan avatar. |
-| 🛡️ [**`tutor-badge-shields/`**](./tutor-badge-shields/README.md) | **Koleksi Badge Shields**: Badge kecil ala shields.io buat status akun (Verified), role aslab/praktikan, kelas praktikum, status ACC bimbingan, dan showcase. |
-| 📑 [**`template-studi-kasus/`**](./template-studi-kasus/README.md) | **Template Siap Pakai**: Template markdown lengkap buat Repositori Tugas Kelompok Praktikum dan Profil GitHub pribadi kamu. |
+### 1. [📚 Folder Tutorial (`./tutorial/`)](./tutorial/README.md)
+Kumpulan modul panduan teknis dan parameter widget:
+- 📚 [**Tutorial Bimbingan per Project**](./tutorial/tutor-bimbingan-project/README.md)
+- 👤 [**Tutorial Kartu Profil Mahasiswa & Aslab**](./tutorial/tutor-widget-profil/README.md)
+- 🎮 [**Tutorial Widget Discord Live Presence**](./tutorial/tutor-widget-discord/README.md)
+- 🛡️ [**Tutorial Koleksi Badge Shields**](./tutorial/tutor-badge-shields/README.md)
+
+### 2. [🚀 Folder Studi Kasus Proyek Nyata (`./studi-kasus/`)](./studi-kasus/README.md)
+Contoh implementasi repositori proyek tugas besar yang nyata:
+- 📦 [**Tubes Kelompok 3 (SIMLAB - Web App)**](./studi-kasus/tubes-kelompok-simlab/README.md) — Repositori tubes lengkap dengan kode web (`index.html`, `style.css`, `app.js`) dan widget bimbingan live.
+- 👤 [**Profil GitHub Developer Showcase**](./studi-kasus/github-profile-showcase/README.md) — Contoh profil GitHub developer mahasiswa Informatika Unmul.
 
 ---
 
