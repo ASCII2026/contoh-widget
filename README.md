@@ -66,7 +66,6 @@ Tinggal pilih folder sesuai kebutuhan kamu:
 | 👤 [**`tutor-widget-profil/`**](./tutor-widget-profil/README.md) | **Widget Kartu Profil**: Kartu profil SVG dinamis buat nampilin info akun Informatika Unmul kamu (nama, NIM, kelas, role, jumlah showcase, dan progress bimbingan). |
 | 🎮 [**`tutor-widget-discord/`**](./tutor-widget-discord/README.md) | **Widget Discord Live Activity**: Nampilin status Discord live, lagu Spotify yang lagi diputar, aktivitas coding di VS Code / nge-game, role server, dan avatar. |
 | 🛡️ [**`tutor-badge-shields/`**](./tutor-badge-shields/README.md) | **Koleksi Badge Shields**: Badge kecil ala shields.io buat status akun (Verified), role aslab/praktikan, kelas praktikum, status ACC bimbingan, dan showcase. |
-| ⚡ [**`tutor-api-json/`**](./tutor-api-json/README.md) | **Integrasi REST API JSON**: Buat kamu yang mau ambil data mentah JSON (`/api/widget-data/{id}`) buat website portofolio pribadi, bot Discord, atau skrip Python / TypeScript. |
 | 📑 [**`template-studi-kasus/`**](./template-studi-kasus/README.md) | **Template Siap Pakai**: Template markdown lengkap buat Repositori Tugas Kelompok Praktikum dan Profil GitHub pribadi kamu. |
 
 ---
@@ -80,7 +79,6 @@ Base URL: https://ascii.web.id
 ### Format Endpoint:
 - **Widget Kartu (SVG)**: `https://ascii.web.id/api/widget/{IDENTIFIER}.svg`
 - **Badge Shields (SVG)**: `https://ascii.web.id/api/badge/{IDENTIFIER}.svg`
-- **Data Mentah (JSON)**: `https://ascii.web.id/api/widget-data/{IDENTIFIER}`
 
 > **Tips Isi `{IDENTIFIER}`**:
 > - **NIM / Username**: Contoh `2209106127` atau `2200018000`

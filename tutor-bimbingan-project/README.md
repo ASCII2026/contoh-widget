@@ -186,4 +186,4 @@ Status kartu bakal otomatis berubah sesuai tahapan ACC di portal:
 ## 📂 File Terkait
 - [Contoh File README.md Repo Tubes Siap Pakai](./example-repo-readme.md)
 - [Panduan Badge Shields Bimbingan](../tutor-badge-shields/README.md)
-- [Dokumentasi API JSON](../tutor-api-json/README.md)
+- [Template Studi Kasus](../template-studi-kasus/README.md)
