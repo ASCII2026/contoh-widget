@@ -8,16 +8,24 @@ Widget ini otomatis nampilin status Discord kamu (Online, Idle, DND), lagu Spoti
 
 ---
 
+## ⚡ Preview Live Nyata
+
+Berikut tampilan live kartu Discord SVG langsung dari server untuk akun `testingaja`:
+
+[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+
+---
+
 ## 📌 Daftar Isi
 - [Syarat Penggunaan](#-syarat-penggunaan)
 - [Apa Saja yang Ditampilkan?](#-apa-saja-yang-ditampilkan)
 - [Format Endpoint](#-format-endpoint)
+- [Pilihan Tema & Preview Live](#-pilihan-tema--preview-live)
 - [Contoh Pemakaian](#-contoh-pemakaian)
   - [1. Avatar Server (Default)](#1-avatar-server-default)
   - [2. Avatar Global Discord](#2-avatar-global-discord)
-  - [3. Dengan Pilihan Tema](#3-dengan-pilihan-tema)
-  - [4. Role dari Server Tertentu (Guild)](#4-role-dari-server-tertentu-guild)
-- [Studi Kasus: Profil GitHub Developer yang Interaktif](#-studi-kasus-profil-github-developer-yang-interaktif)
+  - [3. Role dari Server Tertentu (Guild)](#3-role-dari-server-tertentu-guild)
+- [Studi Kasus: Profil GitHub Developer](#-studi-kasus-profil-github-developer)
 - [Tabel Parameter](#-tabel-parameter)
 - [Tips & Troubleshooting](#-tips--troubleshooting)
 
@@ -50,30 +58,57 @@ https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=discord[&avatar={server|gl
 
 ---
 
+## 🎨 Pilihan Tema & Preview Live
+
+### 1. Tema Dark (Paling Populer untuk Discord)
+[![Discord Dark](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+
+```markdown
+[![Discord Dark](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+```
+
+---
+
+### 2. Tema Burgundy (Default Portal)
+[![Discord Burgundy](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=burgundy)](https://ascii.web.id)
+
+```markdown
+[![Discord Burgundy](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=burgundy)](https://ascii.web.id)
+```
+
+---
+
+### 3. Tema Matrix
+[![Discord Matrix](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
+
+```markdown
+[![Discord Matrix](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
+```
+
+---
+
+### 4. Tema Light
+[![Discord Light](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=light)](https://ascii.web.id)
+
+```markdown
+[![Discord Light](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=light)](https://ascii.web.id)
+```
+
+---
+
 ## 💡 Contoh Pemakaian
 
 ### 1. Avatar Server (Default)
-Menggunakan avatar profil server Discord:
 ```markdown
 [![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord)](https://ascii.web.id)
 ```
 
 ### 2. Avatar Global Discord
-Menggunakan foto avatar utama akun Discord kamu:
 ```markdown
 [![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global)](https://ascii.web.id)
 ```
 
-### 3. Dengan Pilihan Tema
-```markdown
-<!-- Tema Dark -->
-[![Discord Dark](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
-
-<!-- Tema Matrix -->
-[![Discord Matrix](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
-```
-
-### 4. Role dari Server Tertentu (Guild)
+### 3. Role dari Server Tertentu (Guild)
 ```markdown
 [![Discord Guild](https://ascii.web.id/api/widget/testingaja.svg?type=discord&guild=1203659210747944983)](https://ascii.web.id)
 ```
@@ -89,14 +124,10 @@ Menggunakan foto avatar utama akun Discord kamu:
 
 ---
 
-## 🎯 Studi Kasus: Profil GitHub Developer yang Interaktif
+## 🎯 Studi Kasus: Profil GitHub Developer
 
-**Skenario**:
-Kamu suka dengerin musik pas lagi ngerjain tugas/coding, dan pengen status Spotify & Discord kamu terpampang keren di profil GitHub.
+**Preview Nyata**:
 
-**Contoh di `README.md`**:
-
-```markdown
 # ⚡ Live Activity & Spotify
 
 Lagi dengerin apa dan lagi ngapain sekarang? Cek status live Discord aku di bawah ini:
@@ -106,9 +137,6 @@ Lagi dengerin apa dan lagi ngapain sekarang? Cek status live Discord aku di bawa
     <img src="https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark" alt="Live Discord Status" />
   </a>
 </p>
-
-> 💡 *Widget ini otomatis update setiap 60 detik lewat gateway Discord ASCII IF.*
-```
 
 ---
 

@@ -7,15 +7,22 @@ Ini panduan buat pasang **Widget Kartu Profil (Default Card)** dari [ASCII IF](h
 ---
 
 ## 📌 Daftar Isi
+- [Preview Live Nyata](#-preview-live-nyata)
 - [Apa Saja yang Ditampilkan?](#-apa-saja-yang-ditampilkan)
 - [Format Endpoint](#-format-endpoint)
-- [Pilihan Tema Warna](#-pilihan-tema-warna)
+- [Pilihan Tema Warna & Preview](#-pilihan-tema-warna--preview)
 - [Contoh Pemakaian](#-contoh-pemakaian)
-  - [Markdown](#markdown)
-  - [HTML](#html)
 - [Studi Kasus: Pasang di Profil GitHub Pribadi](#-studi-kasus-pasang-di-profil-github-pribadi)
 - [Tabel Parameter](#-tabel-parameter)
 - [File Terkait](#-file-terkait)
+
+---
+
+## ⚡ Preview Live Nyata
+
+Berikut tampilan live kartu SVG langsung dari server untuk akun `testingaja`:
+
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg)](https://ascii.web.id)
 
 ---
 
@@ -38,37 +45,48 @@ https://ascii.web.id/api/widget/{NIM_ATAU_USERNAME}.svg[?theme={THEME}]
 
 ---
 
-## 🎨 Pilihan Tema Warna
+## 🎨 Pilihan Tema Warna & Preview
 
-Ada 4 pilihan warna keren yang bisa kamu sesuaikan dengan tema GitHub kamu:
+Kamu bisa pilih dari 4 tema warna bawaan berikut:
 
-| Tema | Parameter | Karakter Warna |
-| :--- | :--- | :--- |
-| **Burgundy** | `theme=burgundy` | Merah marun khas identitas ASCII IF *(Default)* |
-| **Dark** | `theme=dark` | Slate/charcoal gelap elegan & kontras |
-| **Matrix** | `theme=matrix` | Hijau neon retro ala terminal hacker |
-| **Light** | `theme=light` | Putih bersih & minimalis |
+### 1. Tema Burgundy (Default)
+[![Tema Burgundy](https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy)](https://ascii.web.id)
+
+```markdown
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy)](https://ascii.web.id)
+```
 
 ---
 
-## 💡 Contoh Pemakaian
+### 2. Tema Dark
+[![Tema Dark](https://ascii.web.id/api/widget/testingaja.svg?theme=dark)](https://ascii.web.id)
 
-### Markdown
 ```markdown
-<!-- Tema Burgundy (Default) -->
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg)](https://ascii.web.id)
-
-<!-- Tema Dark -->
 [![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=dark)](https://ascii.web.id)
+```
 
-<!-- Tema Matrix -->
+---
+
+### 3. Tema Matrix
+[![Tema Matrix](https://ascii.web.id/api/widget/testingaja.svg?theme=matrix)](https://ascii.web.id)
+
+```markdown
 [![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=matrix)](https://ascii.web.id)
+```
 
-<!-- Tema Light -->
+---
+
+### 4. Tema Light
+[![Tema Light](https://ascii.web.id/api/widget/testingaja.svg?theme=light)](https://ascii.web.id)
+
+```markdown
 [![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=light)](https://ascii.web.id)
 ```
 
-### HTML (Bisa Diatur Posisi Tengah)
+---
+
+## 💡 Contoh Pemakaian HTML (Tengah / Centered)
+
 ```html
 <p align="center">
   <a href="https://ascii.web.id">
@@ -84,9 +102,8 @@ Ada 4 pilihan warna keren yang bisa kamu sesuaikan dengan tema GitHub kamu:
 **Skenario**:
 Sebagai mahasiswa Informatika Unmul (baik praktikan atau aslab), kamu mau memajang kartu identitas lab di halaman depan profil GitHub kamu (`username/username`) biar makin rapi dan profesional.
 
-**Contoh di `README.md` Profil**:
+**Preview Hasil Nyata**:
 
-```markdown
 # Halo, Aku Muhammad Alif 👋
 > Mahasiswa Informatika Universitas Mulawarman • Praktikan Lab ASCII IF
 
@@ -100,11 +117,6 @@ Sebagai mahasiswa Informatika Unmul (baik praktikan atau aslab), kamu mau memaja
 - **Bahasa**: TypeScript, Python, C++, Go
 - **Web**: React, Next.js, Node.js, Tailwind CSS
 - **Database**: PostgreSQL, SQLite, Redis
-
-### 🔗 Link
-- 🌐 [Portal Lab ASCII IF](https://ascii.web.id)
-- 💼 [LinkedIn](https://linkedin.com)
-```
 
 ---
 

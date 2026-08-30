@@ -6,16 +6,23 @@ Ini panduan buat pasang **Widget Bimbingan** dan **Project Tracker** dari portal
 
 ---
 
+## ⚡ Preview Live Nyata
+
+Berikut tampilan live kartu bimbingan SVG dari akun `testingaja`:
+
+[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+
+---
+
 ## 📌 Daftar Isi
 - [Kenapa Pakai Widget Ini?](#-kenapa-pakai-widget-ini)
 - [Format Endpoint](#-format-endpoint)
+- [Pilihan Tema & Preview Live](#-pilihan-tema--preview-live)
 - [Cara Pemakaian](#-cara-pemakaian)
   - [1. Pakai Group ID Langsung (Paling Direkomendasikan buat Repo Tubes)](#1-pakai-group-id-langsung-paling-direkomendasikan-buat-repo-tubes)
   - [2. Pakai NIM / Username Mahasiswa](#2-pakai-nim--username-mahasiswa)
   - [3. Filter Kelompok Tertentu (Buat yang Banyak Kelompok / Aslab)](#3-filter-kelompok-spesifik)
 - [Studi Kasus Nyata](#-studi-kasus-nyata)
-  - [Kasus 1: Repo Tubes Kelompok Praktikum](#kasus-1-repo-tubes-kelompok-praktikum)
-  - [Kasus 2: Repo Aslab Pembimbing](#kasus-2-repo-aslab-pembimbing)
 - [Parameter Query](#-parameter-query)
 - [Tahapan Progres Bimbingan](#-tahapan-progres-bimbingan)
 - [File Terkait](#-file-terkait)
@@ -40,6 +47,44 @@ https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=bimbingan[&theme={THEME}][
 > 1. **Group ID / UUID Kelompok** *(Paling pas buat repo tubes bareng kelompok)*
 > 2. **NIM / Username** akun ASCII IF kamu
 > 3. **Discord ID** kamu
+
+---
+
+## 🎨 Pilihan Tema & Preview Live
+
+### 1. Tema Burgundy (Default)
+[![Bimbingan Burgundy](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+
+```markdown
+[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+```
+
+---
+
+### 2. Tema Dark
+[![Bimbingan Dark](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
+
+```markdown
+[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
+```
+
+---
+
+### 3. Tema Matrix
+[![Bimbingan Matrix](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+
+```markdown
+[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+```
+
+---
+
+### 4. Tema Light
+[![Bimbingan Light](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=light)](https://ascii.web.id)
+
+```markdown
+[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=light)](https://ascii.web.id)
+```
 
 ---
 
@@ -82,16 +127,10 @@ Misalnya kamu ikut beberapa praktikum sekaligus di semester ini, atau kamu aslab
 
 ---
 
-## 🎯 Studi Kasus Nyata
+## 🎯 Studi Kasus: Repo Tubes Kelompok Praktikum
 
-### Kasus 1: Repo Tubes Kelompok Praktikum
+**Preview Nyata Hasil Header Repo Tubes**:
 
-**Skenario**:
-Kelompok kamu (misal Kelompok 3) lagi ngerjain tugas akhir praktikum *Pemrograman Web*. Kamu mau aslab, dosen, dan teman sekelompok bisa langsung lihat progres ACC di halaman repo GitHub.
-
-**Cara Pasang di `README.md`**:
-
-```markdown
 # 🚀 Sistem Rental Mobil - Kelompok 3
 > Proyek Akhir Praktikum Pemrograman Web • Informatika Unmul
 
@@ -110,8 +149,6 @@ Kelompok kamu (misal Kelompok 3) lagi ngerjain tugas akhir praktikum *Pemrograma
   </a>
 </p>
 
----
-
 ## 📊 Live Progress Bimbingan
 
 <p align="center">
@@ -119,29 +156,6 @@ Kelompok kamu (misal Kelompok 3) lagi ngerjain tugas akhir praktikum *Pemrograma
     <img src="https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
   </a>
 </p>
-
----
-
-## 👥 Anggota Kelompok
-- **2200018001** - Mahasiswa Satu
-- **2200018002** - Mahasiswa Dua
-- **2200018003** - Mahasiswa Tiga
-
-**Aslab Pembimbing**: *Kak Aslab*
-```
-
----
-
-### Kasus 2: Repo Aslab Pembimbing
-
-**Skenario**:
-Sebagai sesama mahasiswa yang jadi Asisten Lab, kamu mau nampilin progres kelompok binaan di repo modul/template praktikum.
-
-**Cara Pasang**:
-```markdown
-### 📋 Status Bimbingan Kelompok Binaan (Kelompok Alpha)
-[![Status Kelompok Alpha](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&group=Alpha&theme=matrix)](https://ascii.web.id)
-```
 
 ---
 

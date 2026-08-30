@@ -6,6 +6,56 @@ Ini adalah repositori panduan dan contoh pemakaian **Widget & Badge Dinamis** da
 
 ---
 
+## ⚡ Preview Live Widget Nyata
+
+Berikut preview tampilan widget SVG nyata dari akun `testingaja`:
+
+### 1. Kartu Bimbingan Proyek (Tubes)
+[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+
+```markdown
+[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+```
+
+---
+
+### 2. Kartu Profil Mahasiswa / Aslab
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy)](https://ascii.web.id)
+
+```markdown
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy)](https://ascii.web.id)
+```
+
+---
+
+### 3. Kartu Discord Live Presence & Spotify
+[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+
+```markdown
+[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+```
+
+---
+
+### 4. Deretan Badge Shields
+<p align="left">
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Status" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix" alt="Bimbingan" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy" alt="Projects" /></a>
+</p>
+
+```markdown
+[![Status](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy)](https://ascii.web.id)
+[![Role](https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark)](https://ascii.web.id)
+[![Kelas](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark)](https://ascii.web.id)
+[![ACC](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+[![Projects](https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy)](https://ascii.web.id)
+```
+
+---
+
 ## 📂 Daftar Tutorial & Contoh
 
 Tinggal pilih folder sesuai kebutuhan kamu:
@@ -43,33 +93,12 @@ Base URL: https://ascii.web.id
 
 Semua widget kartu dan badge bisa kamu ganti warnanya pakai parameter `theme`:
 
-| Tema | Parameter | Tampilan Warna |
+| Tema | Parameter | Preview Badge Nyata |
 | :--- | :--- | :--- |
-| **Burgundy** | `theme=burgundy` | Merah marun khas ASCII IF *(Default)* |
-| **Dark** | `theme=dark` | Slate gelap modern |
-| **Matrix** | `theme=matrix` | Hijau neon ala terminal hacker |
-| **Light** | `theme=light` | Putih bersih & minimalis |
-
----
-
-## ⚡ Contoh Cepat (Tinggal Copy-Paste)
-
-### 1. Kartu Bimbingan di Repo Tubes
-```markdown
-[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
-```
-
-### 2. Badge Deret di Header Repo
-```markdown
-[![Status](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy)](https://ascii.web.id)
-[![Kelas](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark)](https://ascii.web.id)
-[![ACC](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
-```
-
-### 3. Kartu Discord & Spotify di Profil GitHub
-```markdown
-[![Discord Status](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
-```
+| **Burgundy** | `theme=burgundy` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy) *(Default)* |
+| **Dark** | `theme=dark` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=dark) |
+| **Matrix** | `theme=matrix` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix) |
+| **Light** | `theme=light` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=light) |
 
 ---
 

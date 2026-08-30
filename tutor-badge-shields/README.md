@@ -8,8 +8,22 @@ Panduan ini ngebahas koleksi **Badge Shields** dari portal [ASCII IF](https://as
 
 ---
 
+## ⚡ Preview Live Nyata
+
+Berikut tampilan live seluruh badge shield dari akun `testingaja`:
+
+<p align="left">
+  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Status" />
+  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" />
+  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" />
+  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix" alt="Bimbingan" />
+  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy" alt="Projects" />
+</p>
+
+---
+
 ## 📌 Daftar Isi
-- [Daftar Varian Badge](#-daftar-varian-badge)
+- [Daftar Varian Badge & Preview](#-daftar-varian-badge--preview)
 - [Format Endpoint](#-format-endpoint)
 - [Pilihan Varian Badge](#-pilihan-varian-badge)
   - [1. Badge Status Akun (Verified)](#1-badge-status-akun-verified)
@@ -17,21 +31,21 @@ Panduan ini ngebahas koleksi **Badge Shields** dari portal [ASCII IF](https://as
   - [3. Badge Kelas Praktikum](#3-badge-kelas-praktikum)
   - [4. Badge Progres Bimbingan (ACC)](#4-badge-progres-bimbingan-acc)
   - [5. Badge Showcase Projects](#5-badge-showcase-projects)
-- [Pilihan Tema Warna](#-pilihan-tema-warna)
+- [Pilihan Tema Warna & Preview](#-pilihan-tema-warna--preview)
 - [Studi Kasus: Header Bar Repositori Praktikum](#-studi-kasus-header-bar-repositori-praktikum)
 - [Tabel Parameter](#-tabel-parameter)
 
 ---
 
-## 🛡️ Daftar Varian Badge
+## 🛡️ Daftar Varian Badge & Preview
 
-| Varian | Query Parameter | Contoh Output Teks | Kegunaan |
-| :--- | :--- | :--- | :--- |
-| **Status** | `type=status` *(default)* | `ASCII LAB \| testingaja • Verified` | Bukti akun kamu sudah terverifikasi di lab. |
-| **Role** | `type=role` | `ROLE \| PRAKTIKAN` atau `ASLAB` | Nampilin peran kamu di lab Informatika Unmul. |
-| **Kelas** | `type=kelas` | `KELAS \| Kelas C` | Nampilin kelas praktikum kamu. |
-| **Bimbingan** | `type=bimbingan` | `BIMBINGAN \| ACC Final ✨` | Status ringkas tahapan ACC tugas akhir kamu. |
-| **Projects** | `type=projects` | `PROJECTS \| 5 Showcase` | Total proyek yang sudah kamu upload ke portal. |
+| Varian | Query Parameter | Preview Live Nyata | Kegunaan |
+| :--- | :--- | :---: | :--- |
+| **Status** | `type=status` *(default)* | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy) | Bukti akun kamu sudah terverifikasi di lab. |
+| **Role** | `type=role` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark) | Nampilin peran kamu di lab Informatika Unmul. |
+| **Kelas** | `type=kelas` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark) | Nampilin kelas praktikum kamu. |
+| **Bimbingan** | `type=bimbingan` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix) | Status ringkas tahapan ACC tugas akhir kamu. |
+| **Projects** | `type=projects` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy) | Total proyek yang sudah kamu upload ke portal. |
 
 ---
 
@@ -48,36 +62,52 @@ https://ascii.web.id/api/badge/{IDENTIFIER}.svg[?type={TYPE}][&theme={THEME}]
 ## 🏷️ Pilihan Varian Badge
 
 ### 1. Badge Status Akun (Verified)
+[![Status](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy)](https://ascii.web.id)
+
 ```markdown
 [![Status](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy)](https://ascii.web.id)
 ```
 
 ### 2. Badge Role Lab
+[![Role](https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark)](https://ascii.web.id)
+
 ```markdown
 [![Role](https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark)](https://ascii.web.id)
 ```
 
 ### 3. Badge Kelas Praktikum
+[![Kelas](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark)](https://ascii.web.id)
+
 ```markdown
 [![Kelas](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark)](https://ascii.web.id)
 ```
 
 ### 4. Badge Progres Bimbingan (ACC)
 Badge ini dinamis: begitu tugas kamu sudah selesai dan di-ACC aslab, tulisannya otomatis jadi `ACC Final ✨`.
+
+[![Bimbingan ACC](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+
 ```markdown
 [![Bimbingan ACC](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
 ```
 
 ### 5. Badge Showcase Projects
+[![Projects](https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy)](https://ascii.web.id)
+
 ```markdown
 [![Projects](https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy)](https://ascii.web.id)
 ```
 
 ---
 
-## 🎨 Pilihan Tema Warna
+## 🎨 Pilihan Tema Warna & Preview
 
-Semua badge punya 4 opsi warna:
+| Tema | Parameter | Preview Live |
+| :--- | :--- | :---: |
+| **Burgundy** | `theme=burgundy` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy) |
+| **Dark** | `theme=dark` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=dark) |
+| **Matrix** | `theme=matrix` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix) |
+| **Light** | `theme=light` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=light) |
 
 ```markdown
 <!-- Tema Burgundy (Merah Marun) -->
@@ -97,12 +127,8 @@ Semua badge punya 4 opsi warna:
 
 ## 🎯 Studi Kasus: Header Bar Repositori Praktikum
 
-**Skenario**:
-Kamu mau bikin header repo tugas besar yang rapi dengan menyusun beberapa badge dalam satu baris horizontal.
+**Preview Nyata Header Bar**:
 
-**Contoh di `README.md`**:
-
-```markdown
 # 📚 Tugas Akhir Praktikum Pemrograman Web
 > Laboratorium Informatika Universitas Mulawarman
 
@@ -123,9 +149,6 @@ Kamu mau bikin header repo tugas besar yang rapi dengan menyusun beberapa badge 
     <img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy" alt="Projects" />
   </a>
 </p>
-
----
-```
 
 ---
 
