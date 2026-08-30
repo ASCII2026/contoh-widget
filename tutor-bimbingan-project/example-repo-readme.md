@@ -36,8 +36,8 @@ Tinggal salin isinya ke `README.md` repo kamu!
 Status tahapan bimbingan di bawah ini terhubung langsung dengan sistem [ASCII IF](https://ascii.web.id) dan terupdate otomatis setiap ada approval dari aslab:
 
 <p align="center">
-  <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
+  <a href="https://ascii.web.id/bimbingan">
+    <img src="https://ascii.web.id/api/widget/fd35b370-da93-46ed-a056-e3f13d366430.svg?type=bimbingan" alt="Progress Bimbingan ASCII IF" />
   </a>
 </p>
 

@@ -11,7 +11,16 @@ Ini adalah repositori panduan dan contoh pemakaian **Widget & Badge Dinamis** da
 Berikut preview tampilan widget SVG nyata dari akun `2209106127`:
 
 ### 1. Kartu Bimbingan Proyek (Tubes)
-[![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+
+**Opsi A: Dedicated Project Card (Spesifik 1 Proyek Kelompok)**
+[![Status Bimbingan Proyek](https://ascii.web.id/api/widget/fd35b370-da93-46ed-a056-e3f13d366430.svg?type=bimbingan)](https://ascii.web.id)
+
+```markdown
+[![Status Bimbingan Proyek](https://ascii.web.id/api/widget/fd35b370-da93-46ed-a056-e3f13d366430.svg?type=bimbingan)](https://ascii.web.id)
+```
+
+**Opsi B: Berdasarkan NIM Mahasiswa**
+[![Status Bimbingan NIM](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
 
 ```markdown
 [![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
@@ -81,8 +90,8 @@ Base URL: https://ascii.web.id
 - **Badge Shields (SVG)**: `https://ascii.web.id/api/badge/{IDENTIFIER}.svg`
 
 > **Tips Isi `{IDENTIFIER}`**:
+> - **Group ID / UUID Tubes**: Contoh `fd35b370-da93-46ed-a056-e3f13d366430` *(Otomatis nampilin nama kelompok & judul tubes)*
 > - **NIM / Username**: Contoh `2209106127` atau `2200018000`
-> - **Group ID / UUID Tubes**: Contoh `6b8850ff-27c9-4a06-b33a-866ec8d87a71` *(Bagus banget buat kartu bimbingan repo kelompok)*
 > - **Discord ID**: Contoh `1203659210747944983`
 
 ---

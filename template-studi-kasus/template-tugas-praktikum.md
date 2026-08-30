@@ -34,8 +34,8 @@ Salin blok kode di bawah ini ke file `README.md` di repositori tugas besar / pra
 Widget di bawah ini terhubung langsung ke portal [ASCII IF](https://ascii.web.id) untuk memantau tahapan bimbingan kelompok kami secara real-time:
 
 <p align="center">
-  <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan Proyek" />
+  <a href="https://ascii.web.id/bimbingan">
+    <img src="https://ascii.web.id/api/widget/fd35b370-da93-46ed-a056-e3f13d366430.svg?type=bimbingan" alt="Status Bimbingan Proyek" />
   </a>
 </p>
 

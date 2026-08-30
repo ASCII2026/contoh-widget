@@ -91,18 +91,21 @@ https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=bimbingan[&theme={THEME}][
 ## 💡 Cara Pemakaian
 
 ### 1. Pakai Group ID Langsung (Paling Direkomendasikan buat Repo Tubes)
-Kalau kamu punya Group ID kelompok (bisa dicek di dashboard bimbingan, bentuknya UUID seperti `6b8850ff-27c9-4a06-b33a-866ec8d87a71`), tinggal pasang ID itu di URL. Widget otomatis fokus ke proyek kelompok kamu.
+Kalau kamu memilih 1 project khusus (bisa dipilih lewat menu **Pengaturan > Widget GitHub > Bimbingan Tracker** di web portal, bentuknya ID seperti `fd35b370-da93-46ed-a056-e3f13d366430`), pasang ID itu di URL. Widget otomatis menampilkan kartu khusus proyek tersebut lengkap dengan nama kelompok, mata kuliah, dan aslab pembimbing.
+
+#### Preview Live Project Khusus:
+[![Status Bimbingan Proyek](https://ascii.web.id/api/widget/fd35b370-da93-46ed-a056-e3f13d366430.svg?type=bimbingan)](https://ascii.web.id)
 
 #### Markdown:
 ```markdown
-[![Status Bimbingan Proyek](https://ascii.web.id/api/widget/6b8850ff-27c9-4a06-b33a-866ec8d87a71.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+[![Status Bimbingan Proyek](https://ascii.web.id/api/widget/fd35b370-da93-46ed-a056-e3f13d366430.svg?type=bimbingan)](https://ascii.web.id)
 ```
 
 #### HTML (Tengah / Center):
 ```html
 <p align="center">
   <a href="https://ascii.web.id/bimbingan">
-    <img src="https://ascii.web.id/api/widget/6b8850ff-27c9-4a06-b33a-866ec8d87a71.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan Proyek" />
+    <img src="https://ascii.web.id/api/widget/fd35b370-da93-46ed-a056-e3f13d366430.svg?type=bimbingan" alt="Status Bimbingan Proyek" />
   </a>
 </p>
 ```
