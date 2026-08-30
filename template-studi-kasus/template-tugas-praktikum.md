@@ -11,19 +11,19 @@ Salin blok kode di bawah ini ke file `README.md` di repositori tugas besar / pra
 <p align="left">
   <!-- Badge Status Bimbingan ACC -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
   </a>
   <!-- Badge Kelas Praktikum -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
   </a>
   <!-- Badge Role Mahasiswa -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role Mahasiswa" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark" alt="Role Mahasiswa" />
   </a>
   <!-- Badge Verified Member -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix" alt="Verified Status" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=matrix" alt="Verified Status" />
   </a>
 </p>
 
@@ -35,7 +35,7 @@ Widget di bawah ini terhubung langsung ke portal [ASCII IF](https://ascii.web.id
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan Proyek" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan Proyek" />
   </a>
 </p>
 

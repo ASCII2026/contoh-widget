@@ -10,9 +10,9 @@ Widget ini otomatis nampilin status Discord kamu (Online, Idle, DND), lagu Spoti
 
 ## ⚡ Preview Live Nyata
 
-Berikut tampilan live kartu Discord SVG langsung dari server untuk akun `testingaja`:
+Berikut tampilan live kartu Discord SVG langsung dari server untuk akun `2209106127`:
 
-[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+[![Discord Live Presence](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
 
 ---
 
@@ -61,37 +61,37 @@ https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=discord[&avatar={server|gl
 ## 🎨 Pilihan Tema & Preview Live
 
 ### 1. Tema Dark (Paling Populer untuk Discord)
-[![Discord Dark](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+[![Discord Dark](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
 
 ```markdown
-[![Discord Dark](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+[![Discord Dark](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
 ```
 
 ---
 
 ### 2. Tema Burgundy (Default Portal)
-[![Discord Burgundy](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=burgundy)](https://ascii.web.id)
+[![Discord Burgundy](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=burgundy)](https://ascii.web.id)
 
 ```markdown
-[![Discord Burgundy](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=burgundy)](https://ascii.web.id)
+[![Discord Burgundy](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=burgundy)](https://ascii.web.id)
 ```
 
 ---
 
 ### 3. Tema Matrix
-[![Discord Matrix](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
+[![Discord Matrix](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
 
 ```markdown
-[![Discord Matrix](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
+[![Discord Matrix](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
 ```
 
 ---
 
 ### 4. Tema Light
-[![Discord Light](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=light)](https://ascii.web.id)
+[![Discord Light](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=light)](https://ascii.web.id)
 
 ```markdown
-[![Discord Light](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=light)](https://ascii.web.id)
+[![Discord Light](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=light)](https://ascii.web.id)
 ```
 
 ---
@@ -100,24 +100,24 @@ https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=discord[&avatar={server|gl
 
 ### 1. Avatar Server (Default)
 ```markdown
-[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord)](https://ascii.web.id)
+[![Discord Live Presence](https://ascii.web.id/api/widget/2209106127.svg?type=discord)](https://ascii.web.id)
 ```
 
 ### 2. Avatar Global Discord
 ```markdown
-[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global)](https://ascii.web.id)
+[![Discord Live Presence](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global)](https://ascii.web.id)
 ```
 
 ### 3. Role dari Server Tertentu (Guild)
 ```markdown
-[![Discord Guild](https://ascii.web.id/api/widget/testingaja.svg?type=discord&guild=1203659210747944983)](https://ascii.web.id)
+[![Discord Guild](https://ascii.web.id/api/widget/2209106127.svg?type=discord&guild=1203659210747944983)](https://ascii.web.id)
 ```
 
 ### HTML (Posisi Tengah)
 ```html
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark" alt="Discord Live Activity" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=dark" alt="Discord Live Activity" />
   </a>
 </p>
 ```
@@ -134,7 +134,7 @@ Lagi dengerin apa dan lagi ngapain sekarang? Cek status live Discord aku di bawa
 
 <p align="center">
   <a href="https://discord.com">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark" alt="Live Discord Status" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=dark" alt="Live Discord Status" />
   </a>
 </p>
 

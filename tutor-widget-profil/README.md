@@ -20,9 +20,9 @@ Ini panduan buat pasang **Widget Kartu Profil (Default Card)** dari [ASCII IF](h
 
 ## ⚡ Preview Live Nyata
 
-Berikut tampilan live kartu SVG langsung dari server untuk akun `testingaja`:
+Berikut tampilan live kartu SVG langsung dari server untuk akun `2209106127`:
 
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/2209106127.svg)](https://ascii.web.id)
 
 ---
 
@@ -50,37 +50,37 @@ https://ascii.web.id/api/widget/{NIM_ATAU_USERNAME}.svg[?theme={THEME}]
 Kamu bisa pilih dari 4 tema warna bawaan berikut:
 
 ### 1. Tema Burgundy (Default)
-[![Tema Burgundy](https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy)](https://ascii.web.id)
+[![Tema Burgundy](https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy)](https://ascii.web.id)
 
 ```markdown
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy)](https://ascii.web.id)
 ```
 
 ---
 
 ### 2. Tema Dark
-[![Tema Dark](https://ascii.web.id/api/widget/testingaja.svg?theme=dark)](https://ascii.web.id)
+[![Tema Dark](https://ascii.web.id/api/widget/2209106127.svg?theme=dark)](https://ascii.web.id)
 
 ```markdown
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=dark)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/2209106127.svg?theme=dark)](https://ascii.web.id)
 ```
 
 ---
 
 ### 3. Tema Matrix
-[![Tema Matrix](https://ascii.web.id/api/widget/testingaja.svg?theme=matrix)](https://ascii.web.id)
+[![Tema Matrix](https://ascii.web.id/api/widget/2209106127.svg?theme=matrix)](https://ascii.web.id)
 
 ```markdown
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=matrix)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/2209106127.svg?theme=matrix)](https://ascii.web.id)
 ```
 
 ---
 
 ### 4. Tema Light
-[![Tema Light](https://ascii.web.id/api/widget/testingaja.svg?theme=light)](https://ascii.web.id)
+[![Tema Light](https://ascii.web.id/api/widget/2209106127.svg?theme=light)](https://ascii.web.id)
 
 ```markdown
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=light)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/2209106127.svg?theme=light)](https://ascii.web.id)
 ```
 
 ---
@@ -90,7 +90,7 @@ Kamu bisa pilih dari 4 tema warna bawaan berikut:
 ```html
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy" alt="Kartu Profil ASCII IF" width="480" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy" alt="Kartu Profil ASCII IF" width="480" />
   </a>
 </p>
 ```
@@ -109,7 +109,7 @@ Sebagai mahasiswa Informatika Unmul (baik praktikan atau aslab), kamu mau memaja
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy" alt="Kartu Profil ASCII IF" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy" alt="Kartu Profil ASCII IF" />
   </a>
 </p>
 

@@ -7,28 +7,28 @@ Tinggal salin isinya, terus sesuaikan NIM dan biodata kamu!
 ---
 
 ```markdown
-# 👨‍💻 Muhammad Alif (testingaja)
+# 👨‍💻 Muhammad Alif (2209106127)
 > Mahasiswa Informatika Universitas Mulawarman • Lab ASCII IF
 
 <p align="center">
   <!-- Kartu Profil Dinamis ASCII IF -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy" alt="ASCII IF Profile Card" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy" alt="ASCII IF Profile Card" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Verified Status" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy" alt="Verified Status" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark" alt="Role" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=matrix" alt="Showcase Projects" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=matrix" alt="Showcase Projects" />
   </a>
 </p>
 
@@ -57,7 +57,7 @@ Tinggal salin isinya, terus sesuaikan NIM dan biodata kamu!
 ### 📊 Statistik GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=testingaja&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=2209106127&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
 
 ---

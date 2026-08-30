@@ -10,14 +10,14 @@ Panduan ini ngebahas koleksi **Badge Shields** dari portal [ASCII IF](https://as
 
 ## ⚡ Preview Live Nyata
 
-Berikut tampilan live seluruh badge shield dari akun `testingaja`:
+Berikut tampilan live seluruh badge shield dari akun `2209106127`:
 
 <p align="left">
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Status" />
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" />
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" />
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix" alt="Bimbingan" />
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy" alt="Projects" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy" alt="Status" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark" alt="Role" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=matrix" alt="Bimbingan" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=burgundy" alt="Projects" />
 </p>
 
 ---
@@ -41,11 +41,11 @@ Berikut tampilan live seluruh badge shield dari akun `testingaja`:
 
 | Varian | Query Parameter | Preview Live Nyata | Kegunaan |
 | :--- | :--- | :---: | :--- |
-| **Status** | `type=status` *(default)* | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy) | Bukti akun kamu sudah terverifikasi di lab. |
-| **Role** | `type=role` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark) | Nampilin peran kamu di lab Informatika Unmul. |
-| **Kelas** | `type=kelas` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark) | Nampilin kelas praktikum kamu. |
-| **Bimbingan** | `type=bimbingan` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix) | Status ringkas tahapan ACC tugas akhir kamu. |
-| **Projects** | `type=projects` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy) | Total proyek yang sudah kamu upload ke portal. |
+| **Status** | `type=status` *(default)* | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy) | Bukti akun kamu sudah terverifikasi di lab. |
+| **Role** | `type=role` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark) | Nampilin peran kamu di lab Informatika Unmul. |
+| **Kelas** | `type=kelas` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark) | Nampilin kelas praktikum kamu. |
+| **Bimbingan** | `type=bimbingan` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=matrix) | Status ringkas tahapan ACC tugas akhir kamu. |
+| **Projects** | `type=projects` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=burgundy) | Total proyek yang sudah kamu upload ke portal. |
 
 ---
 
@@ -62,40 +62,40 @@ https://ascii.web.id/api/badge/{IDENTIFIER}.svg[?type={TYPE}][&theme={THEME}]
 ## 🏷️ Pilihan Varian Badge
 
 ### 1. Badge Status Akun (Verified)
-[![Status](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy)](https://ascii.web.id)
+[![Status](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy)](https://ascii.web.id)
 
 ```markdown
-[![Status](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy)](https://ascii.web.id)
+[![Status](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy)](https://ascii.web.id)
 ```
 
 ### 2. Badge Role Lab
-[![Role](https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark)](https://ascii.web.id)
+[![Role](https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark)](https://ascii.web.id)
 
 ```markdown
-[![Role](https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark)](https://ascii.web.id)
+[![Role](https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark)](https://ascii.web.id)
 ```
 
 ### 3. Badge Kelas Praktikum
-[![Kelas](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark)](https://ascii.web.id)
+[![Kelas](https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark)](https://ascii.web.id)
 
 ```markdown
-[![Kelas](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark)](https://ascii.web.id)
+[![Kelas](https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark)](https://ascii.web.id)
 ```
 
 ### 4. Badge Progres Bimbingan (ACC)
 Badge ini dinamis: begitu tugas kamu sudah selesai dan di-ACC aslab, tulisannya otomatis jadi `ACC Final ✨`.
 
-[![Bimbingan ACC](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+[![Bimbingan ACC](https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
 
 ```markdown
-[![Bimbingan ACC](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+[![Bimbingan ACC](https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
 ```
 
 ### 5. Badge Showcase Projects
-[![Projects](https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy)](https://ascii.web.id)
+[![Projects](https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=burgundy)](https://ascii.web.id)
 
 ```markdown
-[![Projects](https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy)](https://ascii.web.id)
+[![Projects](https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=burgundy)](https://ascii.web.id)
 ```
 
 ---
@@ -104,23 +104,23 @@ Badge ini dinamis: begitu tugas kamu sudah selesai dan di-ACC aslab, tulisannya 
 
 | Tema | Parameter | Preview Live |
 | :--- | :--- | :---: |
-| **Burgundy** | `theme=burgundy` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy) |
-| **Dark** | `theme=dark` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=dark) |
-| **Matrix** | `theme=matrix` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix) |
-| **Light** | `theme=light` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=light) |
+| **Burgundy** | `theme=burgundy` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy) |
+| **Dark** | `theme=dark` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=dark) |
+| **Matrix** | `theme=matrix` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=matrix) |
+| **Light** | `theme=light` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=light) |
 
 ```markdown
 <!-- Tema Burgundy (Merah Marun) -->
-![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy)
+![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy)
 
 <!-- Tema Dark (Slate Gelap) -->
-![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=dark)
+![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=dark)
 
 <!-- Tema Matrix (Hijau Hacker) -->
-![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix)
+![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=matrix)
 
 <!-- Tema Light (Putih Minimalis) -->
-![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=light)
+![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=light)
 ```
 
 ---
@@ -134,19 +134,19 @@ Badge ini dinamis: begitu tugas kamu sudah selesai dan di-ACC aslab, tulisannya 
 
 <p align="left">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Status" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy" alt="Status" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark" alt="Role" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix" alt="Bimbingan" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=matrix" alt="Bimbingan" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy" alt="Projects" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=burgundy" alt="Projects" />
   </a>
 </p>
 

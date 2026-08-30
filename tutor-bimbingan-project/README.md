@@ -8,9 +8,9 @@ Ini panduan buat pasang **Widget Bimbingan** dan **Project Tracker** dari portal
 
 ## ⚡ Preview Live Nyata
 
-Berikut tampilan live kartu bimbingan SVG dari akun `testingaja`:
+Berikut tampilan live kartu bimbingan SVG dari akun `2209106127`:
 
-[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+[![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
 
 ---
 
@@ -53,37 +53,37 @@ https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=bimbingan[&theme={THEME}][
 ## 🎨 Pilihan Tema & Preview Live
 
 ### 1. Tema Burgundy (Default)
-[![Bimbingan Burgundy](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+[![Bimbingan Burgundy](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
 
 ```markdown
-[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+[![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
 ```
 
 ---
 
 ### 2. Tema Dark
-[![Bimbingan Dark](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
+[![Bimbingan Dark](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
 
 ```markdown
-[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
+[![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
 ```
 
 ---
 
 ### 3. Tema Matrix
-[![Bimbingan Matrix](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+[![Bimbingan Matrix](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
 
 ```markdown
-[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+[![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
 ```
 
 ---
 
 ### 4. Tema Light
-[![Bimbingan Light](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=light)](https://ascii.web.id)
+[![Bimbingan Light](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=light)](https://ascii.web.id)
 
 ```markdown
-[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=light)](https://ascii.web.id)
+[![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=light)](https://ascii.web.id)
 ```
 
 ---
@@ -113,7 +113,7 @@ Kalau kamu punya Group ID kelompok (bisa dicek di dashboard bimbingan, bentuknya
 Kalau mau nampilin bimbingan utama kamu sendiri di profil atau repo:
 
 ```markdown
-[![Bimbingan Praktikum](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
+[![Bimbingan Praktikum](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
 ```
 
 ---
@@ -122,7 +122,7 @@ Kalau mau nampilin bimbingan utama kamu sendiri di profil atau repo:
 Misalnya kamu ikut beberapa praktikum sekaligus di semester ini, atau kamu aslab yang megang beberapa kelompok, kamu bisa tambahin parameter `group` sesuai nama kelompok atau mata kuliah:
 
 ```markdown
-[![Bimbingan Web](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&group=Web&theme=matrix)](https://ascii.web.id)
+[![Bimbingan Web](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&group=Web&theme=matrix)](https://ascii.web.id)
 ```
 
 ---
@@ -137,15 +137,15 @@ Misalnya kamu ikut beberapa praktikum sekaligus di semester ini, atau kamu aslab
 <p align="left">
   <!-- Badge Status Bimbingan ACC -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
   </a>
   <!-- Badge Kelas -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
   </a>
   <!-- Badge Verified Member -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix" alt="Verified Lab" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=matrix" alt="Verified Lab" />
   </a>
 </p>
 
@@ -153,7 +153,7 @@ Misalnya kamu ikut beberapa praktikum sekaligus di semester ini, atau kamu aslab
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
   </a>
 </p>
 

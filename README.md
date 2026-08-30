@@ -8,50 +8,50 @@ Ini adalah repositori panduan dan contoh pemakaian **Widget & Badge Dinamis** da
 
 ## ⚡ Preview Live Widget Nyata
 
-Berikut preview tampilan widget SVG nyata dari akun `testingaja`:
+Berikut preview tampilan widget SVG nyata dari akun `2209106127`:
 
 ### 1. Kartu Bimbingan Proyek (Tubes)
-[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+[![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
 
 ```markdown
-[![Status Bimbingan](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
+[![Status Bimbingan](https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
 ```
 
 ---
 
 ### 2. Kartu Profil Mahasiswa / Aslab
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy)](https://ascii.web.id)
 
 ```markdown
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy)](https://ascii.web.id)
 ```
 
 ---
 
 ### 3. Kartu Discord Live Presence & Spotify
-[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+[![Discord Live Presence](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
 
 ```markdown
-[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+[![Discord Live Presence](https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
 ```
 
 ---
 
 ### 4. Deretan Badge Shields
 <p align="left">
-  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Status" /></a>
-  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" /></a>
-  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" /></a>
-  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix" alt="Bimbingan" /></a>
-  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy" alt="Projects" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy" alt="Status" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark" alt="Role" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=matrix" alt="Bimbingan" /></a>
+  <a href="https://ascii.web.id"><img src="https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=burgundy" alt="Projects" /></a>
 </p>
 
 ```markdown
-[![Status](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy)](https://ascii.web.id)
-[![Role](https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark)](https://ascii.web.id)
-[![Kelas](https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark)](https://ascii.web.id)
-[![ACC](https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
-[![Projects](https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=burgundy)](https://ascii.web.id)
+[![Status](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy)](https://ascii.web.id)
+[![Role](https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark)](https://ascii.web.id)
+[![Kelas](https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark)](https://ascii.web.id)
+[![ACC](https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=matrix)](https://ascii.web.id)
+[![Projects](https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=burgundy)](https://ascii.web.id)
 ```
 
 ---
@@ -83,7 +83,7 @@ Base URL: https://ascii.web.id
 - **Data Mentah (JSON)**: `https://ascii.web.id/api/widget-data/{IDENTIFIER}`
 
 > **Tips Isi `{IDENTIFIER}`**:
-> - **NIM / Username**: Contoh `testingaja` atau `2200018000`
+> - **NIM / Username**: Contoh `2209106127` atau `2200018000`
 > - **Group ID / UUID Tubes**: Contoh `6b8850ff-27c9-4a06-b33a-866ec8d87a71` *(Bagus banget buat kartu bimbingan repo kelompok)*
 > - **Discord ID**: Contoh `1203659210747944983`
 
@@ -95,10 +95,10 @@ Semua widget kartu dan badge bisa kamu ganti warnanya pakai parameter `theme`:
 
 | Tema | Parameter | Preview Badge Nyata |
 | :--- | :--- | :--- |
-| **Burgundy** | `theme=burgundy` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy) *(Default)* |
-| **Dark** | `theme=dark` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=dark) |
-| **Matrix** | `theme=matrix` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix) |
-| **Light** | `theme=light` | ![](https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=light) |
+| **Burgundy** | `theme=burgundy` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy) *(Default)* |
+| **Dark** | `theme=dark` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=dark) |
+| **Matrix** | `theme=matrix` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=matrix) |
+| **Light** | `theme=light` | ![](https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=light) |
 
 ---
 

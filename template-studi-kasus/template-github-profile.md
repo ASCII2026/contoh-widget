@@ -11,23 +11,23 @@ Salin blok kode di bawah ini ke file `README.md` pada repositori profil GitHub k
 <p align="center">
   <!-- Kartu Profil Dinamis ASCII IF -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy" alt="ASCII IF Profile Card" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy" alt="ASCII IF Profile Card" />
   </a>
 </p>
 
 <p align="center">
   <!-- Deretan Badge Identitas Lab -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Status" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy" alt="Status" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark" alt="Role" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=matrix" alt="Showcase" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=projects&theme=matrix" alt="Showcase" />
   </a>
 </p>
 
@@ -37,7 +37,7 @@ Salin blok kode di bawah ini ke file `README.md` pada repositori profil GitHub k
 
 <p align="center">
   <a href="https://discord.com">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark" alt="Discord Live Activity" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?type=discord&avatar=global&theme=dark" alt="Discord Live Activity" />
   </a>
 </p>
 

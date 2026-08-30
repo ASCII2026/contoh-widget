@@ -46,7 +46,7 @@ Endpoint ini sudah siap pakai dan open CORS:
   "user": {
     "id": "c1f729b8-1549-4328-ba17-64670c79ec0a",
     "name": "Muhammad Alif",
-    "username": "testingaja",
+    "username": "2209106127",
     "role": "praktikan",
     "angkatan": "2022",
     "kelas": "C",
@@ -168,13 +168,13 @@ def cek_status_bimbingan(nim: str):
         return None
 
 if __name__ == "__main__":
-    cek_status_bimbingan("testingaja")
+    cek_status_bimbingan("2209106127")
 ```
 
 ### 3. cURL CLI
 
 ```bash
-curl -s https://ascii.web.id/api/widget-data/testingaja | jq .
+curl -s https://ascii.web.id/api/widget-data/2209106127 | jq .
 ```
 
 ---

@@ -9,14 +9,14 @@ Di folder ini ada kumpulan template file `README.md` yang sudah siap di-*copy-pa
 ## ⚡ Preview Live Komponen Template
 
 <p align="center">
-  <img src="https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy" alt="ASCII Profile" />
+  <img src="https://ascii.web.id/api/widget/2209106127.svg?theme=burgundy" alt="ASCII Profile" />
 </p>
 
 <p align="center">
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Status" />
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" />
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" />
-  <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=matrix" alt="Bimbingan" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=burgundy" alt="Status" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark" alt="Role" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas" />
+  <img src="https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=matrix" alt="Bimbingan" />
 </p>
 
 ---
@@ -35,5 +35,5 @@ Di folder ini ada kumpulan template file `README.md` yang sudah siap di-*copy-pa
 1. Buka salah satu file template di atas.
 2. Salin (*copy*) seluruh blok kode markdown-nya.
 3. Tempel (*paste*) ke file `README.md` di repositori target kamu.
-4. Ganti NIM / username contoh (`testingaja`) dengan **NIM** kamu atau **Group ID Kelompok** kamu.
+4. Ganti NIM / username contoh (`2209106127`) dengan **NIM** kamu atau **Group ID Kelompok** kamu.
 5. Sesuaikan detail judul proyek dan deskripsinya.

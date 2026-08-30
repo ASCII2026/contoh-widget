@@ -13,19 +13,19 @@ Tinggal salin isinya ke `README.md` repo kamu!
 <p align="left">
   <!-- Status Bimbingan ACC -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
   </a>
   <!-- Kelas Praktikum -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
   </a>
   <!-- Role Mahasiswa -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role Mahasiswa" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=role&theme=dark" alt="Role Mahasiswa" />
   </a>
   <!-- Status Terverifikasi di Lab -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix" alt="Verified Member" />
+    <img src="https://ascii.web.id/api/badge/2209106127.svg?type=status&theme=matrix" alt="Verified Member" />
   </a>
 </p>
 
@@ -37,7 +37,7 @@ Status tahapan bimbingan di bawah ini terhubung langsung dengan sistem [ASCII IF
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
+    <img src="https://ascii.web.id/api/widget/2209106127.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
   </a>
 </p>
 
