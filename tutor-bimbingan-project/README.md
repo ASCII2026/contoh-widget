@@ -1,30 +1,32 @@
-# Tutorial: Widget Bimbingan & Dedicated Project Tracker
+# Tutorial: Widget Bimbingan & Project Tracker (Informatika Unmul)
 
-Panduan lengkap penggunaan **Widget Bimbingan** dan **Project Tracker** dari [ASCII IF](https://ascii.web.id) untuk memantau tahapan bimbingan praktikum, status ACC (Pra-Konsul, Konsul 1, Konsul 2, ACC Final), progres persentase, dan identitas asisten laboratorium secara *real-time* di repositori GitHub tugas kelompok / tubes.
+Halo praktikan dan aslab! 👋
+
+Ini panduan buat pasang **Widget Bimbingan** dan **Project Tracker** dari portal [ASCII IF](https://ascii.web.id). Widget ini nampilin status tahapan bimbingan praktikum kamu secara live (Pra-Konsul, Konsul 1, Konsul 2, sampai ACC Final), persentase progres, dan nama aslab pembimbing langsung di `README.md` repositori GitHub tugas kelompok / tubes kamu.
 
 ---
 
 ## 📌 Daftar Isi
-- [Fitur Utama](#-fitur-utama)
+- [Kenapa Pakai Widget Ini?](#-kenapa-pakai-widget-ini)
 - [Format Endpoint](#-format-endpoint)
-- [Mode Pemakaian](#-mode-pemakaian)
-  - [Mode 1: Dedicated Project Tracker (Direkomendasikan untuk Tubes)](#mode-1-dedicated-project-tracker-direkomendasikan-untuk-repo-tubes)
-  - [Mode 2: Tracking Berdasarkan NIM / Username Mahasiswa](#mode-2-tracking-berdasarkan-nim--username-mahasiswa)
-  - [Mode 3: Filter Kelompok Tertentu pada Akun Multi-Kelompok / Aslab](#mode-3-filter-kelompok-spesifik)
+- [Cara Pemakaian](#-cara-pemakaian)
+  - [1. Pakai Group ID Langsung (Paling Direkomendasikan buat Repo Tubes)](#1-pakai-group-id-langsung-paling-direkomendasikan-buat-repo-tubes)
+  - [2. Pakai NIM / Username Mahasiswa](#2-pakai-nim--username-mahasiswa)
+  - [3. Filter Kelompok Tertentu (Buat yang Banyak Kelompok / Aslab)](#3-filter-kelompok-spesifik)
 - [Studi Kasus Nyata](#-studi-kasus-nyata)
-  - [Studi Kasus 1: Repositori Tugas Besar Kelompok](#studi-kasus-1-repositori-tugas-besar-kelompok)
-  - [Studi Kasus 2: Repositori Proyek Asisten Lab (Pantau Kelompok Bimbingan)](#studi-kasus-2-repositori-asisten-lab)
-- [Tabel Parameter Query](#-tabel-parameter-query)
-- [Indikator Tahapan Bimbingan](#-indikator-tahapan-bimbingan)
-- [Template Siap Pakai](#-template-siap-pakai)
+  - [Kasus 1: Repo Tubes Kelompok Praktikum](#kasus-1-repo-tubes-kelompok-praktikum)
+  - [Kasus 2: Repo Aslab Pembimbing](#kasus-2-repo-aslab-pembimbing)
+- [Parameter Query](#-parameter-query)
+- [Tahapan Progres Bimbingan](#-tahapan-progres-bimbingan)
+- [File Terkait](#-file-terkait)
 
 ---
 
-## 🚀 Fitur Utama
-1. **Live Dynamic SVG**: Status progres selalu terupdate otomatis mengikuti data di portal ASCII IF tanpa perlu push commit baru ke GitHub.
-2. **Dedicated Project ID Support**: Repositori tugas kelompok dapat menggunakan `groupId` langsung agar kartu menampilkan judul proyek, nama kelompok, mata kuliah, dan nama Aslab pembimbing.
-3. **Multi-Role Ready**: Mendukung tampilan sudut pandang praktikan maupun asisten lab.
-4. **4 Pilihan Tema**: Burgundy, Dark, Matrix, dan Light.
+## 🚀 Kenapa Pakai Widget Ini?
+1. **Otomatis Update (Live SVG)**: Begitu aslab nge-ACC konsul kamu di portal ASCII IF, kartu di GitHub otomatis berubah statusnya tanpa perlu commit atau push ulang!
+2. **Support Dedicated Group ID**: Kartu bakal nampilin nama kelompok, judul tubes, mata kuliah praktikum, dan nama aslab pembimbing kamu.
+3. **Cocok buat Praktikan & Aslab**: Aslab juga bisa pantau kelompok bimbingannya lewat GitHub.
+4. **Bisa Ganti Tema**: Ada 4 pilihan warna (Burgundy, Dark, Matrix, Light).
 
 ---
 
@@ -34,24 +36,24 @@ Panduan lengkap penggunaan **Widget Bimbingan** dan **Project Tracker** dari [AS
 https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=bimbingan[&theme={THEME}][&group={GROUP_FILTER}]
 ```
 
-> **Catatan:** `{IDENTIFIER}` dapat diisi dengan:
-> 1. **Group ID / Project ID** (UUID kelompok bimbingan) *(Sangat disarankan untuk repo kelompok)*
-> 2. **NIM / Username** akun ASCII IF Anda
-> 3. **Discord ID** yang sudah terhubung dengan akun ASCII IF
+> **Catatan Isi `{IDENTIFIER}`**:
+> 1. **Group ID / UUID Kelompok** *(Paling pas buat repo tubes bareng kelompok)*
+> 2. **NIM / Username** akun ASCII IF kamu
+> 3. **Discord ID** kamu
 
 ---
 
-## 💡 Mode Pemakaian
+## 💡 Cara Pemakaian
 
-### Mode 1: Dedicated Project Tracker (Direkomendasikan untuk Repo Tubes)
-Jika Anda memiliki ID Kelompok Bimbingan (misal: `6b8850ff-27c9-4a06-b33a-866ec8d87a71`), Anda bisa langsung menggunakannya sebagai `{IDENTIFIER}`. Widget akan otomatis menampilkan kartu khusus proyek tersebut lengkap dengan nama kelompok, mata kuliah, dan asisten lab pembimbing.
+### 1. Pakai Group ID Langsung (Paling Direkomendasikan buat Repo Tubes)
+Kalau kamu punya Group ID kelompok (bisa dicek di dashboard bimbingan, bentuknya UUID seperti `6b8850ff-27c9-4a06-b33a-866ec8d87a71`), tinggal pasang ID itu di URL. Widget otomatis fokus ke proyek kelompok kamu.
 
-#### Sintaks Markdown:
+#### Markdown:
 ```markdown
 [![Status Bimbingan Proyek](https://ascii.web.id/api/widget/6b8850ff-27c9-4a06-b33a-866ec8d87a71.svg?type=bimbingan&theme=burgundy)](https://ascii.web.id)
 ```
 
-#### Sintaks HTML:
+#### HTML (Tengah / Center):
 ```html
 <p align="center">
   <a href="https://ascii.web.id/bimbingan">
@@ -62,60 +64,59 @@ Jika Anda memiliki ID Kelompok Bimbingan (misal: `6b8850ff-27c9-4a06-b33a-866ec8
 
 ---
 
-### Mode 2: Tracking Berdasarkan NIM / Username Mahasiswa
-Jika Anda menggunakan NIM atau username akun, widget akan menampilkan ringkasan bimbingan utama Anda.
+### 2. Pakai NIM / Username Mahasiswa
+Kalau mau nampilin bimbingan utama kamu sendiri di profil atau repo:
 
-#### Sintaks Markdown:
 ```markdown
-[![Bimbingan Praktikum](https://ascii.web.id/api/widget/tesintgsaja.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
+[![Bimbingan Praktikum](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=dark)](https://ascii.web.id)
 ```
 
 ---
 
-### Mode 3: Filter Kelompok Spesifik
-Jika Anda terdaftar di lebih dari satu kelompok praktikum (atau merupakan Aslab), Anda dapat menambahkan parameter `group` untuk memfilter ke kelompok tertentu berdasarkan nama kelompok atau nama mata kuliah:
+### 3. Filter Kelompok Spesifik
+Misalnya kamu ikut beberapa praktikum sekaligus di semester ini, atau kamu aslab yang megang beberapa kelompok, kamu bisa tambahin parameter `group` sesuai nama kelompok atau mata kuliah:
 
 ```markdown
-[![Bimbingan Web](https://ascii.web.id/api/widget/tesintgsaja.svg?type=bimbingan&group=Web&theme=matrix)](https://ascii.web.id)
+[![Bimbingan Web](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&group=Web&theme=matrix)](https://ascii.web.id)
 ```
 
 ---
 
 ## 🎯 Studi Kasus Nyata
 
-### Studi Kasus 1: Repositori Tugas Besar Kelompok
+### Kasus 1: Repo Tubes Kelompok Praktikum
 
 **Skenario**:
-Kelompok Anda (Kelompok 3) sedang mengerjakan proyek akhir mata kuliah *Pemrograman Web*. Anda ingin agar aslab, dosen, dan anggota tim bisa langsung melihat status ACC bimbingan di halaman depan repositori GitHub.
+Kelompok kamu (misal Kelompok 3) lagi ngerjain tugas akhir praktikum *Pemrograman Web*. Kamu mau aslab, dosen, dan teman sekelompok bisa langsung lihat progres ACC di halaman repo GitHub.
 
-**Penyelesaian**:
-Tambahkan badge status bimbingan dan kartu widget bimbingan di bagian atas `README.md` repositori:
+**Cara Pasang di `README.md`**:
 
 ```markdown
-# 🚀 Sistem Informasi Rental Mobil - Kelompok 3
+# 🚀 Sistem Rental Mobil - Kelompok 3
+> Proyek Akhir Praktikum Pemrograman Web • Informatika Unmul
 
 <p align="left">
-  <!-- Badge Status Bimbingan -->
+  <!-- Badge Status Bimbingan ACC -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
   </a>
-  <!-- Badge Kelas Praktikum -->
+  <!-- Badge Kelas -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
   </a>
-  <!-- Badge Status Verifikasi Akun -->
+  <!-- Badge Verified Member -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=status&theme=matrix" alt="Verified Lab" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix" alt="Verified Lab" />
   </a>
 </p>
 
 ---
 
-## 📊 Live Progress Bimbingan Proyek
+## 📊 Live Progress Bimbingan
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
   </a>
 </p>
 
@@ -126,54 +127,49 @@ Tambahkan badge status bimbingan dan kartu widget bimbingan di bagian atas `READ
 - **2200018002** - Mahasiswa Dua
 - **2200018003** - Mahasiswa Tiga
 
-## 🛠️ Tech Stack
-- Frontend: Next.js + Tailwind CSS
-- Backend: Express.js + PostgreSQL
-- Monitoring: ASCII IF Lab Portal
+**Aslab Pembimbing**: *Kak Aslab*
 ```
 
 ---
 
-### Studi Kasus 2: Repositori Asisten Lab
+### Kasus 2: Repo Aslab Pembimbing
 
 **Skenario**:
-Sebagai Asisten Lab, Anda mengampu bimbingan beberapa kelompok praktikum dan ingin menampilkan status bimbingan salah satu kelompok binaan di repo modul/starter kit praktikum.
+Sebagai sesama mahasiswa yang jadi Asisten Lab, kamu mau nampilin progres kelompok binaan di repo modul/template praktikum.
 
-**Penyelesaian**:
-Gunakan filter `group` sesuai nama kelompok yang dibimbing:
-
+**Cara Pasang**:
 ```markdown
 ### 📋 Status Bimbingan Kelompok Binaan (Kelompok Alpha)
-[![Status Kelompok Alpha](https://ascii.web.id/api/widget/tesintgsaja.svg?type=bimbingan&group=Alpha&theme=matrix)](https://ascii.web.id)
+[![Status Kelompok Alpha](https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&group=Alpha&theme=matrix)](https://ascii.web.id)
 ```
 
 ---
 
-## ⚙️ Tabel Parameter Query
+## ⚙️ Parameter Query
 
-| Parameter | Tipe Data | Pilihan Nilai | Default | Deskripsi |
-| :--- | :--- | :--- | :--- | :--- |
-| `type` | `string` | `bimbingan` | *(Wajib)* | Menentukan tipe kartu yang dirender adalah kartu bimbingan. |
-| `theme` | `string` | `burgundy`, `dark`, `matrix`, `light` | `burgundy` | Palet tema warna SVG kartu bimbingan. |
-| `group` / `groupId` / `project` | `string` | Nama kelompok / Judul / MK / UUID | *(Opsional)* | Filter spesifik ke kelompok atau mata kuliah tertentu. |
+| Parameter | Pilihan Nilai | Default | Penjelasan |
+| :--- | :--- | :--- | :--- |
+| `type` | `bimbingan` | *(Wajib)* | Wajib diisi `bimbingan` biar yang muncul kartu bimbingan. |
+| `theme` | `burgundy`, `dark`, `matrix`, `light` | `burgundy` | Pilihan warna kartu SVG. |
+| `group` | Nama kelompok / Judul / MK / UUID | *(Opsional)* | Filter ke kelompok atau mata kuliah tertentu. |
 
 ---
 
-## 📈 Indikator Tahapan Bimbingan
+## 📈 Tahapan Progres Bimbingan
 
-Widget bimbingan secara cerdas menghitung progres berdasarkan status database konsul:
+Status kartu bakal otomatis berubah sesuai tahapan ACC di portal:
 
-| Tahap | Status Konsul | Persentase | Indikator Card |
+| Tahap | Keterangan | Progress Bar | Status di Kartu |
 | :--- | :--- | :---: | :--- |
-| **Pra-Konsul** | Belum ada ACC | `10%` | Dimulai |
-| **Konsul 1** | Konsul 0 ACC | `35%` | Tahap awal selesai |
-| **Konsul 2** | Konsul 1 ACC | `60%` | Pertengahan progress |
-| **Siap ACC Final** | Konsul 2 ACC | `85%` | Siap sidang/evaluasi akhir |
-| **ACC Final** | Final ACC Validated | `100%` | Selesai & Berhasil ACC ✨ |
+| **Pra-Konsul** | Pengajuan ide/judul baru dimulai | `10%` | Pra-Konsul |
+| **Konsul 1** | Konsul 0 sudah di-ACC aslab | `35%` | Konsul 1 |
+| **Konsul 2** | Konsul 1 sudah di-ACC aslab | `60%` | Konsul 2 |
+| **Siap ACC Final** | Konsul 2 sudah beres & siap evaluasi | `85%` | Siap ACC Final |
+| **ACC Final** | Selamat! Sudah selesai sidang & ACC ✨ | `100%` | ACC Final |
 
 ---
 
 ## 📂 File Terkait
-- [Contoh Lengkap README.md Repositori Tubes](./example-repo-readme.md)
-- [Panduan Badge Shield Bimbingan](../tutor-badge-shields/README.md)
+- [Contoh File README.md Repo Tubes Siap Pakai](./example-repo-readme.md)
+- [Panduan Badge Shields Bimbingan](../tutor-badge-shields/README.md)
 - [Dokumentasi API JSON](../tutor-api-json/README.md)

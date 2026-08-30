@@ -1,29 +1,29 @@
-# Template: Repositori Proyek / Tugas Praktikum
+# Template: Repositori Tubes / Tugas Praktikum (Informatika Unmul)
 
-Salin blok kode di bawah ini ke dalam file `README.md` pada repositori GitHub proyek akhir / tugas besar praktikum Anda:
+Salin blok kode di bawah ini ke file `README.md` di repositori tugas besar / praktikum kelompok kamu:
 
 ---
 
 ```markdown
 # 🚀 [NAMA PROYEK / JUDUL TUGAS BESAR]
-> Deskripsi singkat proyek praktikum yang dikembangkan oleh kelompok.
+> Proyek Akhir Praktikum Informatika Universitas Mulawarman
 
 <p align="left">
   <!-- Badge Status Bimbingan ACC -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
   </a>
   <!-- Badge Kelas Praktikum -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
   </a>
-  <!-- Badge Role Lab -->
+  <!-- Badge Role Mahasiswa -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=role&theme=dark" alt="Role Mahasiswa" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role Mahasiswa" />
   </a>
   <!-- Badge Verified Member -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=status&theme=matrix" alt="Verified Status" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix" alt="Verified Status" />
   </a>
 </p>
 
@@ -31,11 +31,11 @@ Salin blok kode di bawah ini ke dalam file `README.md` pada repositori GitHub pr
 
 ## 📊 Live Progress Bimbingan
 
-Widget di bawah ini terhubung langsung dengan sistem [ASCII IF](https://ascii.web.id) untuk memantau tahapan bimbingan kelompok kami secara live:
+Widget di bawah ini terhubung langsung ke portal [ASCII IF](https://ascii.web.id) untuk memantau tahapan bimbingan kelompok kami secara real-time:
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan Proyek" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan Proyek" />
   </a>
 </p>
 
@@ -43,44 +43,44 @@ Widget di bawah ini terhubung langsung dengan sistem [ASCII IF](https://ascii.we
 
 ## 👥 Tim Pengembang (Kelompok [Nomor])
 
-| NIM | Nama Mahasiswa | Peran / Tanggung Jawab |
+| NIM | Nama Mahasiswa | Jobdesk / Peran |
 | :---: | :--- | :--- |
-| `2200018001` | Mahasiswa Satu | Fullstack Developer / Team Lead |
-| `2200018002` | Mahasiswa Dua | Frontend Developer |
+| `2200018001` | Mahasiswa Satu | Lead & Fullstack Developer |
+| `2200018002` | Mahasiswa Dua | Frontend & UI/UX Design |
 | `2200018003` | Mahasiswa Tiga | Backend Developer & Database |
 
 **Asisten Laboratorium Pembimbing**: *[Nama Asisten Lab]*
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## 🛠️ Tech Stack
 
 - **Frontend**: React, Tailwind CSS, Vite
-- **Backend**: Node.js, Express / Fastify
+- **Backend**: Node.js, Express
 - **Database**: PostgreSQL / MySQL
-- **Tools**: Git, GitHub Actions, Docker
+- **Tools**: Git, GitHub, VS Code
 
 ---
 
-## 🚀 Panduan Instalasi & Menjalankan
+## 🚀 Panduan Menjalankan Proyek
 
 ```bash
-# 1. Clone repository
+# 1. Clone repositori
 git clone https://github.com/username/nama-repo.git
 
 # 2. Masuk ke direktori
 cd nama-repo
 
-# 3. Install dependensi
+# 3. Install dependencies
 npm install
 
-# 4. Jalankan aplikasi
+# 4. Jalankan server lokal
 npm run dev
 ```
 
 ---
 
 <p align="center">
-  <sub>Laboratorium Teknik Informatika • Portal <a href="https://ascii.web.id">ascii.web.id</a></sub>
+  <sub>Laboratorium Informatika Universitas Mulawarman • Portal: <a href="https://ascii.web.id">ascii.web.id</a></sub>
 </p>
 ```

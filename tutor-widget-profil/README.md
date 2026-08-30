@@ -1,28 +1,30 @@
-# Tutorial: Widget Kartu Profil Mahasiswa & Aslab
+# Tutorial: Widget Kartu Profil Mahasiswa & Aslab (Informatika Unmul)
 
-Panduan lengkap penggunaan **Widget Kartu Profil (Default Card)** dari [ASCII IF](https://ascii.web.id). Widget ini menghasilkan kartu profil SVG dinamis beresolusi tinggi yang menampilkan informasi lengkap akun mahasiswa atau asisten lab di profil GitHub (`README.md`).
+Halo teman-teman Informatika Unmul! 👋
+
+Ini panduan buat pasang **Widget Kartu Profil (Default Card)** dari [ASCII IF](https://ascii.web.id). Widget ini bikin profil GitHub kamu makin keren dengan kartu SVG dinamis yang nampilin identitas akun lab kamu, role (aslab/praktikan), angkatan, kelas, sampai statistik portofolio secara otomatis.
 
 ---
 
 ## 📌 Daftar Isi
-- [Informasi yang Ditampilkan](#-informasi-yang-ditampilkan)
+- [Apa Saja yang Ditampilkan?](#-apa-saja-yang-ditampilkan)
 - [Format Endpoint](#-format-endpoint)
 - [Pilihan Tema Warna](#-pilihan-tema-warna)
 - [Contoh Pemakaian](#-contoh-pemakaian)
   - [Markdown](#markdown)
   - [HTML](#html)
-- [Studi Kasus: Profil GitHub Mahasiswa](#-studi-kasus-profil-github-mahasiswa)
+- [Studi Kasus: Pasang di Profil GitHub Pribadi](#-studi-kasus-pasang-di-profil-github-pribadi)
 - [Tabel Parameter](#-tabel-parameter)
 - [File Terkait](#-file-terkait)
 
 ---
 
-## 📋 Informasi yang Ditampilkan
-Kartu profil secara otomatis membaca data dari database portal [ASCII IF](https://ascii.web.id):
-1. **Identitas**: Nama lengkap, NIM/Username, dan Foto Profil (Avatar).
-2. **Afiliasi**: Role akun (`Praktikan`, `Aslab`, `Admin`), Angkatan, dan Kelas praktikum.
-3. **Statistik Portofolio**: Jumlah karya/proyek yang sudah di-showcase di portal.
-4. **Progres Bimbingan**: Status tahapan bimbingan terkini.
+## 📋 Apa Saja yang Ditampilkan?
+Kartu profil ini otomatis ngambil data dari database portal [ASCII IF](https://ascii.web.id):
+1. **Identitas**: Nama lengkap kamu, NIM/Username, dan foto avatar.
+2. **Akademik & Lab**: Role akun (`Praktikan`, `Aslab`), Angkatan, dan Kelas praktikum di Informatika Unmul.
+3. **Statistik Portofolio**: Jumlah karya/proyek yang sudah kamu showcase di portal.
+4. **Progres Bimbingan**: Status tahapan bimbingan praktikum terkini kamu.
 
 ---
 
@@ -32,20 +34,20 @@ Kartu profil secara otomatis membaca data dari database portal [ASCII IF](https:
 https://ascii.web.id/api/widget/{NIM_ATAU_USERNAME}.svg[?theme={THEME}]
 ```
 
-> Ganti `{NIM_ATAU_USERNAME}` dengan NIM Anda (contoh: `2200018000`) atau username akun ASCII IF Anda.
+> Tinggal ganti `{NIM_ATAU_USERNAME}` dengan NIM kamu (misal: `2200018000`) atau username akun ASCII IF kamu.
 
 ---
 
 ## 🎨 Pilihan Tema Warna
 
-Widget mendukung 4 tema warna bawaan:
+Ada 4 pilihan warna keren yang bisa kamu sesuaikan dengan tema GitHub kamu:
 
-| Tema | Parameter | Karakter Visual |
+| Tema | Parameter | Karakter Warna |
 | :--- | :--- | :--- |
-| **Burgundy** | `theme=burgundy` | Warna merah marun elegan khas identitas portal *(Default)* |
-| **Dark** | `theme=dark` | Warna slate/charcoal gelap modern & kontras |
-| **Matrix** | `theme=matrix` | Warna hijau neon terminal hacker & monokrom gelap |
-| **Light** | `theme=light` | Warna putih bersih minimalis dengan aksen lembut |
+| **Burgundy** | `theme=burgundy` | Merah marun khas identitas ASCII IF *(Default)* |
+| **Dark** | `theme=dark` | Slate/charcoal gelap elegan & kontras |
+| **Matrix** | `theme=matrix` | Hijau neon retro ala terminal hacker |
+| **Light** | `theme=light` | Putih bersih & minimalis |
 
 ---
 
@@ -54,67 +56,67 @@ Widget mendukung 4 tema warna bawaan:
 ### Markdown
 ```markdown
 <!-- Tema Burgundy (Default) -->
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/tesintgsaja.svg)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg)](https://ascii.web.id)
 
 <!-- Tema Dark -->
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/tesintgsaja.svg?theme=dark)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=dark)](https://ascii.web.id)
 
 <!-- Tema Matrix -->
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/tesintgsaja.svg?theme=matrix)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=matrix)](https://ascii.web.id)
 
 <!-- Tema Light -->
-[![Kartu Profil ASCII](https://ascii.web.id/api/widget/tesintgsaja.svg?theme=light)](https://ascii.web.id)
+[![Kartu Profil ASCII](https://ascii.web.id/api/widget/testingaja.svg?theme=light)](https://ascii.web.id)
 ```
 
-### HTML
+### HTML (Bisa Diatur Posisi Tengah)
 ```html
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?theme=burgundy" alt="ASCII IF Profile Card" width="480" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy" alt="Kartu Profil ASCII IF" width="480" />
   </a>
 </p>
 ```
 
 ---
 
-## 🎯 Studi Kasus: Profil GitHub Mahasiswa
+## 🎯 Studi Kasus: Pasang di Profil GitHub Pribadi
 
 **Skenario**:
-Sebagai mahasiswa Teknik Informatika yang aktif, Anda ingin menampilkan kartu identitas resmi laboratorium ASCII IF pada repositori profil GitHub pribadi (`username/username`).
+Sebagai mahasiswa Informatika Unmul (baik praktikan atau aslab), kamu mau memajang kartu identitas lab di halaman depan profil GitHub kamu (`username/username`) biar makin rapi dan profesional.
 
-**Contoh Penerapan di `README.md` Profil**:
+**Contoh di `README.md` Profil**:
 
 ```markdown
-# Halo, Saya Muhammad Alif 👋
-> Mahasiswa Teknik Informatika • Praktikan Lab ASCII IF
+# Halo, Aku Muhammad Alif 👋
+> Mahasiswa Informatika Universitas Mulawarman • Praktikan Lab ASCII IF
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?theme=burgundy" alt="Kartu Profil ASCII IF" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy" alt="Kartu Profil ASCII IF" />
   </a>
 </p>
 
-### 🛠️ Keahlian & Teknologi
+### 🛠️ Bahasa & Teknologi Favorit
 - **Bahasa**: TypeScript, Python, C++, Go
 - **Web**: React, Next.js, Node.js, Tailwind CSS
 - **Database**: PostgreSQL, SQLite, Redis
 
-### 🔗 Tautan Terkait
-- 🌐 [Portal ASCII IF](https://ascii.web.id)
-- 💼 [LinkedIn Profile](https://linkedin.com)
+### 🔗 Link
+- 🌐 [Portal Lab ASCII IF](https://ascii.web.id)
+- 💼 [LinkedIn](https://linkedin.com)
 ```
 
 ---
 
 ## ⚙️ Tabel Parameter
 
-| Parameter | Tipe Data | Nilai | Default | Deskripsi |
+| Parameter | Tipe Data | Pilihan Nilai | Default | Deskripsi |
 | :--- | :--- | :--- | :--- | :--- |
-| `theme` | `string` | `burgundy`, `dark`, `matrix`, `light` | `burgundy` | Menentukan skema warna kartu. |
+| `theme` | `string` | `burgundy`, `dark`, `matrix`, `light` | `burgundy` | Menentukan warna kartu. |
 
 ---
 
 ## 📂 File Terkait
-- [Contoh Template GitHub Profile Lengkap](./example-profile-readme.md)
+- [Template Profil GitHub Lengkap](./example-profile-readme.md)
 - [Widget Discord Live Presence](../tutor-widget-discord/README.md)
 - [Koleksi Badge Shields](../tutor-badge-shields/README.md)

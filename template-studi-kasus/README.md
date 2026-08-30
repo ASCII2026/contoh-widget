@@ -1,6 +1,8 @@
-# Koleksi Template Siap Pakai (Studi Kasus)
+# Koleksi Template Siap Pakai (Informatika Unmul)
 
-Koleksi template `README.md` siap pakai (*copy-paste*) untuk berbagai kebutuhan mahasiswa, praktikan, asisten laboratorium, dan pengembang di portal [ASCII IF](https://ascii.web.id).
+Halo teman-teman Informatika Unmul! 👋
+
+Di folder ini ada kumpulan template file `README.md` yang sudah siap di-*copy-paste* untuk berbagai kebutuhan kamu, baik buat tugas besar kelompok praktikum maupun buat profil GitHub pribadi kamu.
 
 ---
 
@@ -8,15 +10,15 @@ Koleksi template `README.md` siap pakai (*copy-paste*) untuk berbagai kebutuhan 
 
 | Template | File | Studi Kasus / Kegunaan |
 | :--- | :--- | :--- |
-| **Repositori Tugas / Tubes Praktikum** | [`template-tugas-praktikum.md`](./template-tugas-praktikum.md) | Digunakan pada repositori GitHub kelompok praktikum untuk memantau tahapan bimbingan dan ACC tugas akhir. |
-| **Profil GitHub Pribadi** | [`template-github-profile.md`](./template-github-profile.md) | Digunakan pada repositori profil GitHub pengembang (`username/username`) dengan integrasi kartu profil, status Discord, dan badges. |
+| **Repositori Tugas / Tubes Praktikum** | [`template-tugas-praktikum.md`](./template-tugas-praktikum.md) | Pasang di `README.md` repo kelompok praktikum kamu biar aslab dan teman sekelompok bisa langsung pantau progress ACC tugas akhir. |
+| **Profil GitHub Pribadi** | [`template-github-profile.md`](./template-github-profile.md) | Pasang di repositori profil GitHub kamu (`username/username`) lengkap dengan kartu identitas lab, status Discord/Spotify, dan deretan badges. |
 
 ---
 
-## 🚀 Cara Menggunakan Template
+## 🚀 Cara Pakai
 
 1. Buka salah satu file template di atas.
-2. Salin (*copy*) seluruh blok kode markdown.
-3. Tempel (*paste*) ke file `README.md` pada repositori target Anda.
-4. Ganti NIM / ID contoh (`tesintgsaja`) dengan **NIM** atau **ID Kelompok** Anda sendiri.
-5. Sesuaikan teks deskripsi proyek atau portofolio Anda.
+2. Salin (*copy*) blok kode markdown-nya.
+3. Tempel (*paste*) ke file `README.md` di repositori target kamu.
+4. Ganti NIM / username contoh (`testingaja`) dengan **NIM** kamu atau **Group ID Kelompok** kamu.
+5. Sesuaikan detail judul proyek dan deskripsinya.

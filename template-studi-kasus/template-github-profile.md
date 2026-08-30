@@ -1,33 +1,33 @@
-# Template: Profil GitHub Mahasiswa / Developer
+# Template: Profil GitHub Mahasiswa Informatika Unmul
 
-Salin blok kode di bawah ini ke dalam file `README.md` pada repositori profil GitHub Anda (`https://github.com/{username}/{username}`):
+Salin blok kode di bawah ini ke file `README.md` pada repositori profil GitHub kamu (`https://github.com/{username}/{username}`):
 
 ---
 
 ```markdown
-# Halo, Saya [Nama Anda] 👋
-> Mahasiswa Teknik Informatika & Praktikan Lab [ASCII IF](https://ascii.web.id)
+# Halo, Aku [Nama Kamu] 👋
+> Mahasiswa Informatika Universitas Mulawarman • [ASCII IF](https://ascii.web.id)
 
 <p align="center">
   <!-- Kartu Profil Dinamis ASCII IF -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?theme=burgundy" alt="ASCII IF Profile Card" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?theme=burgundy" alt="ASCII IF Profile Card" />
   </a>
 </p>
 
 <p align="center">
-  <!-- Badge Baris -->
+  <!-- Deretan Badge Identitas Lab -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=status&theme=burgundy" alt="Status" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=burgundy" alt="Status" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=role&theme=dark" alt="Role" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=kelas&theme=dark" alt="Kelas" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas" />
   </a>
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=projects&theme=matrix" alt="Showcase" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=projects&theme=matrix" alt="Showcase" />
   </a>
 </p>
 
@@ -37,32 +37,32 @@ Salin blok kode di bawah ini ke dalam file `README.md` pada repositori profil Gi
 
 <p align="center">
   <a href="https://discord.com">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?type=discord&avatar=global&theme=dark" alt="Discord Live Activity" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark" alt="Discord Live Activity" />
   </a>
 </p>
 
 ---
 
-## 💻 Tentang Saya
-- 🎓 Mahasiswa S1 Teknik Informatika.
-- 🔭 Sedang fokus mendalami pengembangan aplikasi web modern & arsitektur cloud.
-- ⚡ Suka mengeksplorasi teknologi baru dan berkontribusi di komunitas open source.
+## 💻 Tentang Aku
+- 🎓 Mahasiswa S1 Informatika Universitas Mulawarman.
+- 🔭 Lagi fokus ngulik dan bangun aplikasi web modern & open-source.
+- ⚡ Suka eksplorasi teknologi baru dan diskusi seputar tech bareng teman-teman.
 
-## 🛠️ Keahlian & Teknologi
+## 🛠️ Bahasa & Teknologi Favorit
 - **Bahasa**: JavaScript, TypeScript, Python, SQL, C++
-- **Frontend**: React, Next.js, Tailwind CSS, Vue
-- **Backend**: Node.js, Express, Bun, Hono
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express, Hono, Bun
 - **Database**: PostgreSQL, SQLite, Redis
 
 ---
 
-## 📬 Kontak & Media Sosial
+## 📬 Kontak & Sosial Media
 - 🌐 Portal ASCII IF: [ascii.web.id](https://ascii.web.id)
 - 💼 LinkedIn: [linkedin.com/in/username](https://linkedin.com)
 - 📧 Email: `kontak@domain.com`
 
 ---
 <p align="center">
-  <sub>Ditenagai oleh Widget Portal Resmi <a href="https://ascii.web.id">ASCII IF</a></sub>
+  <sub>Laboratorium Informatika Universitas Mulawarman • <a href="https://ascii.web.id">ascii.web.id</a></sub>
 </p>
 ```

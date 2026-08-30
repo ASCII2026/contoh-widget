@@ -1,41 +1,43 @@
-# Template Siap Pakai: Repositori Proyek / Tugas Besar Praktikum
+# Template Siap Pakai: README Repo Tubes Praktikum (Informatika Unmul)
 
-File ini adalah contoh implementasi nyata dari `README.md` repositori tugas besar atau proyek praktikum mahasiswa yang mengintegrasikan widget bimbingan dan badge status ASCII IF.
+File ini adalah contoh file `README.md` repositori tugas besar / proyek praktikum mahasiswa Informatika Unmul yang sudah diintegrasikan dengan widget bimbingan dan badge status ASCII IF.
+
+Tinggal salin isinya ke `README.md` repo kamu!
 
 ---
 
 ```markdown
 # 📦 Sistem Manajemen Inventaris Lab (SIMLAB)
-> Proyek Akhir Praktikum Pemrograman Berorientasi Objek & Basis Data
+> Proyek Akhir Praktikum Pemrograman Berorientasi Objek • Informatika Unmul
 
 <p align="left">
   <!-- Status Bimbingan ACC -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=bimbingan&theme=burgundy" alt="Status Bimbingan" />
   </a>
   <!-- Kelas Praktikum -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=kelas&theme=dark" alt="Kelas Praktikum" />
   </a>
-  <!-- Role Pengembang -->
+  <!-- Role Mahasiswa -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=role&theme=dark" alt="Role Mahasiswa" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=role&theme=dark" alt="Role Mahasiswa" />
   </a>
-  <!-- Status Terverifikasi -->
+  <!-- Status Terverifikasi di Lab -->
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/badge/tesintgsaja.svg?type=status&theme=matrix" alt="Verified Member" />
+    <img src="https://ascii.web.id/api/badge/testingaja.svg?type=status&theme=matrix" alt="Verified Member" />
   </a>
 </p>
 
 ---
 
-## 📋 Status & Progres Bimbingan Proyek
+## 📋 Live Progress Bimbingan Proyek
 
-Status tahapan bimbingan di bawah ini terhubung langsung dengan sistem penilaian [ASCII IF](https://ascii.web.id) dan terupdate secara otomatis:
+Status tahapan bimbingan di bawah ini terhubung langsung dengan sistem [ASCII IF](https://ascii.web.id) dan terupdate otomatis setiap ada approval dari aslab:
 
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=bimbingan&theme=burgundy" alt="Progress Bimbingan ASCII IF" />
   </a>
 </p>
 
@@ -43,11 +45,11 @@ Status tahapan bimbingan di bawah ini terhubung langsung dengan sistem penilaian
 
 ## 👥 Tim Pengembang (Kelompok 5)
 
-| Foto / Avatar | Nama Mahasiswa | NIM | Peran |
+| Avatar | Nama | NIM | Jobdesk |
 | :---: | :--- | :---: | :--- |
-| ![Avatar](https://github.com/identicons/app.png) | **Ahmad Dahlan** | `2200018001` | Project Lead & Backend |
+| ![Avatar](https://github.com/identicons/app.png) | **Ahmad Dahlan** | `2200018001` | Lead & Backend API |
 | ![Avatar](https://github.com/identicons/app.png) | **Budi Santoso** | `2200018002` | Frontend & UI/UX |
-| ![Avatar](https://github.com/identicons/app.png) | **Citra Lestari** | `2200018003` | Database & QA Tester |
+| ![Avatar](https://github.com/identicons/app.png) | **Citra Lestari** | `2200018003` | Database & Testing |
 
 **Asisten Laboratorium Pembimbing**: *Kak Aslab Mantap*
 
@@ -55,50 +57,50 @@ Status tahapan bimbingan di bawah ini terhubung langsung dengan sistem penilaian
 
 ## 🛠️ Arsitektur & Teknologi
 
-- **Frontend**: React.js / Vite, Tailwind CSS, TanStack Query
-- **Backend**: Node.js / Express, Prisma ORM
+- **Frontend**: React.js / Vite, Tailwind CSS
+- **Backend**: Node.js / Express
 - **Database**: PostgreSQL
-- **Deployment**: Docker, Nginx, Linux Server
+- **Tools**: Git, GitHub, VS Code
 
 ---
 
-## 🚀 Panduan Menjalankan Proyek
+## 🚀 Cara Menjalankan Proyek di Komputer Lokal
 
-### 1. Kloning Repositori
+### 1. Clone Repositori
 ```bash
 git clone https://github.com/username/simlab-project.git
 cd simlab-project
 ```
 
-### 2. Pasang Dependensi
+### 2. Install Dependensi
 ```bash
 npm install
 ```
 
-### 3. Konfigurasi Environment Variable
-Salin `.env.example` ke `.env` lalu sesuaikan kredensial database Anda:
+### 3. Konfigurasi File Environment
+Salin `.env.example` ke `.env` lalu sesuaikan port dan koneksi database:
 ```bash
 cp .env.example .env
 ```
 
-### 4. Jalankan Server Pengembangan
+### 4. Jalankan Dev Server
 ```bash
 npm run dev
 ```
 
 ---
 
-## 📝 Log Tahapan Bimbingan
+## 📝 Checklist Tahapan Bimbingan
 
-- [x] **Pra-Konsul**: Pengajuan judul, rumusan masalah, dan ERD database.
+- [x] **Pra-Konsul**: Pengajuan judul dan rancangan database.
 - [x] **Konsul 1**: Progres backend API CRUD dan integrasi database (Status: **ACC**).
-- [ ] **Konsul 2**: Penyelesaian frontend dan interaksi API antar komponen.
-- [ ] **Siap ACC Final**: Uji coba sistem, pengetesan skenario error, dan pembuatan laporan.
+- [ ] **Konsul 2**: Penyelesaian frontend dan menghubungkan ke API backend.
+- [ ] **Siap ACC Final**: Uji coba sistem dan penyusunan laporan akhir.
 - [ ] **ACC Final**: Sidang dan presentasi tugas akhir di laboratorium.
 
 ---
 
 <p align="center">
-  <sub>Dikembangkan dengan bangga untuk Laboratorium Informatika • Portal: <a href="https://ascii.web.id">ascii.web.id</a></sub>
+  <sub>Laboratorium Informatika Universitas Mulawarman • Portal: <a href="https://ascii.web.id">ascii.web.id</a></sub>
 </p>
 ```

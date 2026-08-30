@@ -1,39 +1,42 @@
-# Tutorial: Widget Discord Live Presence & Spotify
+# Tutorial: Widget Discord Live Presence & Spotify (Informatika Unmul)
 
-Panduan lengkap penggunaan **Widget Discord Live Presence** dari [ASCII IF](https://ascii.web.id). Widget ini menampilkan status aktivitas Discord Anda secara *real-time*, lagu Spotify yang sedang diputar, status bermain game/coding di VS Code, custom status, role server, dan avatar.
+Halo teman-teman Informatika Unmul! 👋
+
+Mau profil GitHub kamu kelihatan lebih hidup dan interaktif? Panduan ini bakal bantu kamu pasang **Widget Discord Live Presence** dari [ASCII IF](https://ascii.web.id). 
+
+Widget ini otomatis nampilin status Discord kamu (Online, Idle, DND), lagu Spotify yang lagi kamu dengerin, status game / coding di VS Code, custom status, dan role server kamu di komunitas lab.
 
 ---
 
 ## 📌 Daftar Isi
-- [Prasyarat](#-prasyarat)
-- [Fitur yang Ditampilkan](#-fitur-yang-ditampilkan)
+- [Syarat Penggunaan](#-syarat-penggunaan)
+- [Apa Saja yang Ditampilkan?](#-apa-saja-yang-ditampilkan)
 - [Format Endpoint](#-format-endpoint)
-- [Parameter Discord](#-parameter-discord)
 - [Contoh Pemakaian](#-contoh-pemakaian)
-  - [Avatar Server (Default)](#1-avatar-server-default)
-  - [Avatar Global Discord](#2-avatar-global-discord)
-  - [Dengan Tema Khusus](#3-dengan-tema-khusus)
-  - [Dengan Server ID Tertentu (Guild)](#4-dengan-server-id-tertentu-guild)
-- [Studi Kasus: Profil GitHub Developer Interaktif](#-studi-kasus-profil-github-developer-interaktif)
+  - [1. Avatar Server (Default)](#1-avatar-server-default)
+  - [2. Avatar Global Discord](#2-avatar-global-discord)
+  - [3. Dengan Pilihan Tema](#3-dengan-pilihan-tema)
+  - [4. Role dari Server Tertentu (Guild)](#4-role-dari-server-tertentu-guild)
+- [Studi Kasus: Profil GitHub Developer yang Interaktif](#-studi-kasus-profil-github-developer-yang-interaktif)
 - [Tabel Parameter](#-tabel-parameter)
-- [Penyelesaian Masalah (Troubleshooting)](#-penyelesaian-masalah-troubleshooting)
+- [Tips & Troubleshooting](#-tips--troubleshooting)
 
 ---
 
-## 🔐 Prasyarat
-Untuk menggunakan widget Discord, pastikan:
-1. Akun Discord Anda telah **dihubungkan (linked)** ke akun portal [ASCII IF](https://ascii.web.id) melalui menu **Pengaturan > Akun Terhubung**.
-2. Anda telah bergabung ke server Discord resmi ASCII IF.
+## 🔐 Syarat Penggunaan
+Biar widgetnya bisa jalan, pastikan:
+1. Akun Discord kamu sudah **dihubungkan (linked)** ke akun portal [ASCII IF](https://ascii.web.id) lewat menu **Pengaturan > Akun Terhubung**.
+2. Kamu sudah join server Discord resmi ASCII IF Informatika Unmul.
 
 ---
 
-## 🎧 Fitur yang Ditampilkan
-1. **Live Presence Status**: Indikator bulat status (🟢 Online, 🟡 Idle, 🔴 Do Not Disturb, ⚫ Offline).
-2. **Spotify Integration**: Judul lagu, artis, album art thumbnail, dan durasi yang sedang Anda dengarkan di Spotify secara live.
-3. **Rich Presence Activity**: Game yang sedang dimainkan atau aktivitas coding di Visual Studio Code.
-4. **Custom Status**: Emoji dan teks status personal Anda di Discord.
-5. **Discord Roles**: Tag role server lengkap dengan warna role asli Discord.
-6. **Avatar & Banner**: Banner warna aksen dan foto profil Discord.
+## 🎧 Apa Saja yang Ditampilkan?
+1. **Live Presence Status**: Indikator status kamu (🟢 Online, 🟡 Idle, 🔴 Do Not Disturb, ⚫ Offline).
+2. **Integrasi Spotify**: Judul lagu, penyanyi, dan cover album yang lagi kamu putar di Spotify secara real-time.
+3. **Rich Presence Activity**: Info kalau kamu lagi coding di VS Code atau lagi main game.
+4. **Custom Status**: Status teks dan emoji personal kamu di Discord.
+5. **Discord Roles**: Tag role server lengkap dengan warna badge-nya.
+6. **Avatar & Banner**: Foto profil dan aksen warna banner Discord kamu.
 
 ---
 
@@ -43,7 +46,7 @@ Untuk menggunakan widget Discord, pastikan:
 https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=discord[&avatar={server|global}][&guild={GUILD_ID}][&theme={THEME}]
 ```
 
-> `{IDENTIFIER}` dapat diisi dengan **NIM/Username ASCII IF** atau **Discord User ID** Anda (18-19 digit angka).
+> `{IDENTIFIER}` bisa kamu isi dengan **NIM / Username ASCII IF** kamu atau **Discord User ID** kamu.
 
 ---
 
@@ -52,82 +55,81 @@ https://ascii.web.id/api/widget/{IDENTIFIER}.svg?type=discord[&avatar={server|gl
 ### 1. Avatar Server (Default)
 Menggunakan avatar profil server Discord:
 ```markdown
-[![Discord Live Presence](https://ascii.web.id/api/widget/tesintgsaja.svg?type=discord)](https://ascii.web.id)
+[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord)](https://ascii.web.id)
 ```
 
 ### 2. Avatar Global Discord
-Menggunakan avatar akun Discord global:
+Menggunakan foto avatar utama akun Discord kamu:
 ```markdown
-[![Discord Live Presence](https://ascii.web.id/api/widget/tesintgsaja.svg?type=discord&avatar=global)](https://ascii.web.id)
+[![Discord Live Presence](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global)](https://ascii.web.id)
 ```
 
-### 3. Dengan Tema Khusus
+### 3. Dengan Pilihan Tema
 ```markdown
 <!-- Tema Dark -->
-[![Discord Dark](https://ascii.web.id/api/widget/tesintgsaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
+[![Discord Dark](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark)](https://ascii.web.id)
 
 <!-- Tema Matrix -->
-[![Discord Matrix](https://ascii.web.id/api/widget/tesintgsaja.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
+[![Discord Matrix](https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=matrix)](https://ascii.web.id)
 ```
 
-### 4. Dengan Server ID Tertentu (Guild)
-Jika Anda memiliki role di server tertentu yang ingin ditampilkan:
+### 4. Role dari Server Tertentu (Guild)
 ```markdown
-[![Discord Guild](https://ascii.web.id/api/widget/tesintgsaja.svg?type=discord&guild=1203659210747944983)](https://ascii.web.id)
+[![Discord Guild](https://ascii.web.id/api/widget/testingaja.svg?type=discord&guild=1203659210747944983)](https://ascii.web.id)
 ```
 
-### HTML (Center Layout)
+### HTML (Posisi Tengah)
 ```html
 <p align="center">
   <a href="https://ascii.web.id">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?type=discord&avatar=global&theme=dark" alt="Discord Live Activity" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark" alt="Discord Live Activity" />
   </a>
 </p>
 ```
 
 ---
 
-## 🎯 Studi Kasus: Profil GitHub Developer Interaktif
+## 🎯 Studi Kasus: Profil GitHub Developer yang Interaktif
 
 **Skenario**:
-Anda ingin profil GitHub Anda terasa hidup dengan menampilkan status musik Spotify yang sedang Anda dengarkan dan aktivitas coding harian Anda secara otomatis tanpa setup bot ribet.
+Kamu suka dengerin musik pas lagi ngerjain tugas/coding, dan pengen status Spotify & Discord kamu terpampang keren di profil GitHub.
 
-**Contoh Penerapan di `README.md`**:
+**Contoh di `README.md`**:
 
 ```markdown
-# ⚡ Live Activity & Status
+# ⚡ Live Activity & Spotify
 
-Saya sering mendengarkan musik saat coding dan aktif di Discord. Berikut status live saya saat ini:
+Lagi dengerin apa dan lagi ngapain sekarang? Cek status live Discord aku di bawah ini:
 
 <p align="center">
   <a href="https://discord.com">
-    <img src="https://ascii.web.id/api/widget/tesintgsaja.svg?type=discord&avatar=global&theme=dark" alt="Live Discord Status" />
+    <img src="https://ascii.web.id/api/widget/testingaja.svg?type=discord&avatar=global&theme=dark" alt="Live Discord Status" />
   </a>
 </p>
 
-> 💡 *Widget di atas terupdate otomatis setiap 60 detik melalui integrasi Discord Gateway ASCII IF.*
+> 💡 *Widget ini otomatis update setiap 60 detik lewat gateway Discord ASCII IF.*
 ```
 
 ---
 
 ## ⚙️ Tabel Parameter
 
-| Parameter | Pilihan Nilai | Default | Keterangan |
+| Parameter | Pilihan Nilai | Default | Penjelasan |
 | :--- | :--- | :--- | :--- |
-| `type` | `discord` | *(Wajib)* | Menentukan kartu tipe Discord. |
-| `avatar` | `server`, `global` | `server` | Sumber foto avatar (Server Guild atau Akun Global). |
-| `theme` | `burgundy`, `dark`, `matrix`, `light` | `burgundy` | Tema warna latar belakang widget. |
-| `guild` | Discord Server ID (angka) | Server ASCII IF | Menentukan server Discord untuk membaca role dan nickname. |
+| `type` | `discord` | *(Wajib)* | Wajib diisi `discord`. |
+| `avatar` | `server`, `global` | `server` | Pilih mau pakai avatar server atau avatar global Discord. |
+| `theme` | `burgundy`, `dark`, `matrix`, `light` | `burgundy` | Pilihan skema warna widget. |
+| `guild` | Discord Server ID (angka) | Server ASCII IF | ID Server Discord kalau mau nampilin role dari server tertentu. |
 
 ---
 
-## 🔧 Penyelesaian Masalah (Troubleshooting)
+## 🔧 Tips & Troubleshooting
 
-| Gejala Masalah | Penyebab | Solusi |
+| Kendala | Penyebab | Solusi |
 | :--- | :--- | :--- |
-| **"Discord Not Linked"** | Akun Discord belum di-link di portal ASCII. | Masuk ke `ascii.web.id/settings` dan klik hubungkan Discord. |
-| **Spotify tidak muncul** | Privasi Spotify di Discord belum diaktifkan. | Buka Discord App > User Settings > Connections > Aktifkan "Display Spotify as your status". |
-| **Status Offline padahal Online** | Akun berada di mode Invisible atau bot belum mendeteksi. | Ubah status Discord menjadi Online / DND / Idle di aplikasi Discord. |
+| **"Discord Not Linked"** | Akun Discord belum di-link di web ASCII IF. | Buka `ascii.web.id/settings` terus klik tombol Hubungkan Discord. |
+| **Spotify tidak muncul** | Pengaturan Spotify di Discord belum dibagikan. | Di Discord: User Settings > Connections > Aktifkan "Display Spotify as your status". |
+| **Status Offline terus** | Kamu lagi pasang status Invisible di Discord. | Ganti status Discord kamu jadi Online / Idle / DND. |
 
 ---
 
