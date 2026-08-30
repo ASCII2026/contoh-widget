@@ -1,11 +1,4 @@
-# Template: Profil GitHub Mahasiswa Informatika Unmul
-
-Salin blok kode di bawah ini ke file `README.md` pada repositori profil GitHub kamu (`https://github.com/{username}/{username}`):
-
----
-
-```markdown
-# Halo, Aku [Nama Kamu] 👋
+# 👨‍💻 Muhammad Alif (2209106127)
 > Mahasiswa Informatika Universitas Mulawarman • [ASCII IF](https://ascii.web.id)
 
 <p align="center">
@@ -45,7 +38,7 @@ Salin blok kode di bawah ini ke file `README.md` pada repositori profil GitHub k
 
 ## 💻 Tentang Aku
 - 🎓 Mahasiswa S1 Informatika Universitas Mulawarman.
-- 🔭 Lagi fokus ngulik dan bangun aplikasi web modern & open-source.
+- 🔭 Sedang fokus ngulik dan bangun aplikasi web modern & open-source.
 - ⚡ Suka eksplorasi teknologi baru dan diskusi seputar tech bareng teman-teman.
 
 ## 🛠️ Bahasa & Teknologi Favorit
@@ -59,10 +52,9 @@ Salin blok kode di bawah ini ke file `README.md` pada repositori profil GitHub k
 ## 📬 Kontak & Sosial Media
 - 🌐 Portal ASCII IF: [ascii.web.id](https://ascii.web.id)
 - 💼 LinkedIn: [linkedin.com/in/username](https://linkedin.com)
-- 📧 Email: `kontak@domain.com`
+- 📧 Email: `alif@example.com`
 
 ---
 <p align="center">
   <sub>Laboratorium Informatika Universitas Mulawarman • <a href="https://ascii.web.id">ascii.web.id</a></sub>
 </p>
-```

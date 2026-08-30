@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIMLAB — Sistem Manajemen Inventaris Lab Informatika Unmul</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Header & Navigasi -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-logo">
+          <i data-lucide="cpu"></i>
+        </div>
+        <div>
+          <h1 class="brand-title">SIMLAB <span>UNMUL</span></h1>
+          <p class="brand-sub">Praktikum Informatika Kelompok 3</p>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <span class="status-pill">
+          <span class="pulse-dot"></span>
+          <span>ASCII IF Live Sync</span>
+        </span>
+        <button id="btnOpenBorrowModal" class="btn btn-primary">
+          <i data-lucide="plus-circle"></i>
+          <span>Pinjam Alat Lab</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Konten Utama -->
+  <main class="main-container">
+    <!-- Hero / Ringkasan Tubes -->
+    <section class="hero-card">
+      <div class="hero-content">
+        <div class="badge-tag">Tugas Besar Praktikum Web</div>
+        <h2>Sistem Manajemen Inventaris & Peminjaman Fasilitas Lab</h2>
+        <p>Aplikasi monitoring ketersediaan perangkat keras, mikrokontroler, modul IoT, dan fasilitas komputer Laboratorium Informatika Universitas Mulawarman.</p>
+        
+        <div class="team-chips">
+          <span class="chip"><i data-lucide="user"></i> Alif (2209106127)</span>
+          <span class="chip"><i data-lucide="user"></i> Budi (2209106002)</span>
+          <span class="chip"><i data-lucide="user"></i> Citra (2209106003)</span>
+          <span class="chip chip-aslab"><i data-lucide="shield-check"></i> Aslab: Kak Aslab</span>
+        </div>
+      </div>
+
+      <!-- Widget Live ASCII IF terpasang di Web -->
+      <div class="hero-widget-preview">
+        <div class="widget-header">
+          <i data-lucide="activity"></i>
+          <span>Live Bimbingan Tracker</span>
+        </div>
+        <a href="https://ascii.web.id/bimbingan" target="_blank" rel="noreferrer" class="widget-link">
+          <img src="https://ascii.web.id/api/widget/fd35b370-da93-46ed-a056-e3f13d366430.svg?type=bimbingan" alt="Live Bimbingan Tubes" class="live-widget-img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Statistik Cepat -->
+    <section class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon icon-blue"><i data-lucide="box"></i></div>
+        <div>
+          <div class="stat-val" id="statTotalItems">12</div>
+          <div class="stat-label">Total Jenis Alat</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon icon-green"><i data-lucide="check-circle-2"></i></div>
+        <div>
+          <div class="stat-val" id="statAvailable">38</div>
+          <div class="stat-label">Unit Tersedia</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon icon-yellow"><i data-lucide="clock"></i></div>
+        <div>
+          <div class="stat-val" id="statBorrowed">7</div>
+          <div class="stat-label">Sedang Dipinjam</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon icon-burgundy"><i data-lucide="award"></i></div>
+        <div>
+          <div class="stat-val">100%</div>
+          <div class="stat-label">Status ACC Final</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter & Pencarian -->
+    <section class="toolbar">
+      <div class="search-box">
+        <i data-lucide="search"></i>
+        <input type="text" id="searchInput" placeholder="Cari nama alat, modul, mikrokontroler...">
+      </div>
+
+      <div class="filter-group">
+        <button class="filter-btn active" data-cat="all">Semua</button>
+        <button class="filter-btn" data-cat="IoT & Embedded">IoT & Embedded</button>
+        <button class="filter-btn" data-cat="Jaringan">Jaringan</button>
+        <button class="filter-btn" data-cat="Komputer & VR">Komputer & VR</button>
+      </div>
+    </section>
+
+    <!-- Katalog Alat Lab -->
+    <section class="inventory-section">
+      <div class="section-title">
+        <h3><i data-lucide="layers"></i> Katalog Inventaris Laboratorium</h3>
+        <span class="count-badge" id="inventoryCount">12 Perangkat</span>
+      </div>
+
+      <div class="grid-inventory" id="inventoryList">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Peminjaman -->
+  <div class="modal-overlay" id="borrowModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="flex items-center gap-2">
+          <i data-lucide="file-plus" class="text-burgundy"></i>
+          <h3>Form Peminjaman Alat Lab</h3>
+        </div>
+        <button class="btn-close" id="btnCloseModal"><i data-lucide="x"></i></button>
+      </div>
+
+      <form id="borrowForm" class="modal-body">
+        <div class="form-group">
+          <label for="borrowItemSelect">Pilih Alat / Modul Praktikum</label>
+          <select id="borrowItemSelect" required>
+            <!-- Rendered by app.js -->
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="borrowerNim">NIM Mahasiswa</label>
+            <input type="text" id="borrowerNim" value="2209106127" placeholder="Contoh: 2209106127" required>
+          </div>
+          <div class="form-group">
+            <label for="borrowerName">Nama Peminjam</label>
+            <input type="text" id="borrowerName" value="Muhammad Alif" placeholder="Nama Lengkap" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="borrowAmount">Jumlah Unit</label>
+            <input type="number" id="borrowAmount" value="1" min="1" max="5" required>
+          </div>
+          <div class="form-group">
+            <label for="borrowDate">Tanggal Pengembalian</label>
+            <input type="date" id="borrowDate" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="borrowPurpose">Keperluan Praktikum / Proyek</label>
+          <textarea id="borrowPurpose" rows="2" placeholder="Contoh: Uji coba sensor IoT Tugas Akhir Praktikum Web"></textarea>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline" id="btnCancelModal">Batal</button>
+          <button type="submit" class="btn btn-primary"><i data-lucide="send"></i> Ajukan Peminjaman</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Dikembangkan oleh <strong>Kelompok 3</strong> • Tugas Besar Praktikum Pemrograman Web • Informatika Universitas Mulawarman</p>
+    <p class="footer-sub">Portal Sinkronisasi Nilai & Bimbingan: <a href="https://ascii.web.id" target="_blank" rel="noreferrer">ascii.web.id</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

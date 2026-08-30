@@ -1,0 +1,17 @@
+{
+  "name": "simlab-tubes-kelompok3",
+  "version": "1.0.0",
+  "description": "Sistem Informasi Manajemen Inventaris & Peminjaman Lab - Tugas Besar Praktikum Pemrograman Web Informatika Unmul",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "informatika-unmul",
+    "simlab",
+    "praktikum-pemrograman-web",
+    "ascii-if"
+  ],
+  "author": "Kelompok 3 - Kelas C Informatika Unmul",
+  "license": "MIT"
+}
