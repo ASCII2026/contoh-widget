@@ -2,7 +2,7 @@
 
 Halo teman-teman praktikan dan aslab Informatika Unmul! 👋
 
-Ini adalah repositori panduan dan contoh pemakaian **Widget & Badge Dinamis** dari portal [ASCII IF](https://ascii.web.id). Semua contoh di sini sudah disusun **per direktori** biar gampang dicek dan dicoba, lengkap dengan studi kasus nyata (seperti pasang widget bimbingan tubes kelompok, pajang status Discord & Spotify di profil GitHub, sampai integrasi API JSON).
+Ini adalah repositori panduan dan contoh pemakaian **Widget & Badge Dinamis** dari portal [ASCII IF](https://ascii.web.id). Semua contoh di sini sudah disusun **per direktori** biar gampang dicek dan dicoba, lengkap dengan modul tutorial dan studi kasus nyata (seperti pasang widget bimbingan tubes kelompok, pajang status Discord & Spotify di profil GitHub, serta deretan badge perisai praktikum).
 
 ---
 
