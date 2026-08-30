@@ -129,6 +129,7 @@ Sebagai mahasiswa Informatika Unmul (baik praktikan atau aslab), kamu mau memaja
 ---
 
 ## 📂 File Terkait
-- [Template Profil GitHub Lengkap](./example-profile-readme.md)
-- [Widget Discord Live Presence](../tutor-widget-discord/README.md)
-- [Koleksi Badge Shields](../tutor-badge-shields/README.md)
+- [👤 Contoh Repositori Profil GitHub Nyata](../../studi-kasus/github-profile-showcase/README.md)
+- [🎮 Widget Discord Live Presence](../tutor-widget-discord/README.md)
+- [🛡️ Koleksi Badge Shields](../tutor-badge-shields/README.md)
+- [📚 Kembali ke Navigasi Tutorial](../README.md)

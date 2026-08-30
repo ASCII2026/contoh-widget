@@ -162,6 +162,7 @@ Lagi dengerin apa dan lagi ngapain sekarang? Cek status live Discord aku di bawa
 ---
 
 ## 📂 File Terkait
-- [Widget Profil Mahasiswa](../tutor-widget-profil/README.md)
-- [Widget Bimbingan per Project](../tutor-bimbingan-project/README.md)
-- [Template README Lengkap](../template-studi-kasus/README.md)
+- [👤 Widget Profil Mahasiswa](../tutor-widget-profil/README.md)
+- [📚 Widget Bimbingan per Project](../tutor-bimbingan-project/README.md)
+- [🚀 Contoh Studi Kasus Nyata](../../studi-kasus/README.md)
+- [📚 Kembali ke Navigasi Tutorial](../README.md)

@@ -162,6 +162,7 @@ Badge ini dinamis: begitu tugas kamu sudah selesai dan di-ACC aslab, tulisannya 
 ---
 
 ## 📂 File Terkait
-- [Widget Bimbingan per Project](../tutor-bimbingan-project/README.md)
-- [Widget Profil Lengkap](../tutor-widget-profil/README.md)
-- [Template Tugas Praktikum](../template-studi-kasus/template-tugas-praktikum.md)
+- [📚 Widget Bimbingan per Project](../tutor-bimbingan-project/README.md)
+- [👤 Widget Profil Lengkap](../tutor-widget-profil/README.md)
+- [🚀 Contoh Studi Kasus Nyata](../../studi-kasus/README.md)
+- [📚 Kembali ke Navigasi Tutorial](../README.md)
