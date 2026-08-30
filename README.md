@@ -78,8 +78,8 @@ Kumpulan modul panduan teknis dan parameter widget:
 
 ### 2. [🚀 Folder Studi Kasus Proyek Nyata (`./studi-kasus/`)](./studi-kasus/README.md)
 Contoh implementasi repositori proyek tugas besar yang nyata:
-- 📦 [**Tubes Kelompok 3 (SIMLAB - Web App)**](./studi-kasus/tubes-kelompok-simlab/README.md) — Repositori tubes lengkap dengan kode web (`index.html`, `style.css`, `app.js`) dan widget bimbingan live.
-- 👤 [**Profil GitHub Developer Showcase**](./studi-kasus/github-profile-showcase/README.md) — Contoh profil GitHub developer mahasiswa Informatika Unmul.
+- 📦 [**Tubes Kelompok 3 (SIMLAB - Web App)**](./studi-kasus/tubes-kelompok-simlab/README.md): Repositori tubes lengkap dengan kode web (`index.html`, `style.css`, `app.js`) dan widget bimbingan live.
+- 👤 [**Profil GitHub Developer Showcase**](./studi-kasus/github-profile-showcase/README.md): Contoh profil GitHub developer mahasiswa Informatika Unmul.
 
 ---
 

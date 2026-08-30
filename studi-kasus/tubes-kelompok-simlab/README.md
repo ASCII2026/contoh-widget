@@ -1,4 +1,4 @@
-# 📦 SIMLAB — Sistem Informasi Manajemen Inventaris & Peminjaman Lab
+# 📦 SIMLAB: Sistem Informasi Manajemen Inventaris & Peminjaman Lab
 > **Tugas Besar Praktikum Pemrograman Web • Kelompok 3 (Kelas C)**  
 > Program Studi Informatika, Universitas Mulawarman
 
